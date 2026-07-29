@@ -24,21 +24,6 @@
     margin: 28px 0 10px;
     color: #444;
   }
-  button {
-    width: 100%;
-    padding: 14px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    border: none;
-    border-radius: 8px;
-    background: #6b46c1;
-    color: #fff;
-    cursor: pointer;
-  }
-  button:disabled {
-    background: #b3a1d6;
-    cursor: default;
-  }
   .highlight {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -112,15 +97,17 @@
     color: #c0392b;
     margin-top: 16px;
   }
+  .loading {
+    color: #888;
+    margin-top: 16px;
+  }
 </style>
 </head>
 <body>
   <h1>오늘의 운세</h1>
-  <button id="load-btn">운세 보기</button>
-  <div id="result"></div>
+  <div id="result"><p class="loading">불러오는 중...</p></div>
 
   <script>
-    const btn = document.getElementById('load-btn');
     const result = document.getElementById('result');
 
     function renderHighlight(title, h) {
@@ -150,13 +137,9 @@
       `;
     }
 
-    btn.addEventListener('click', async () => {
-      btn.disabled = true;
-      btn.textContent = '불러오는 중...';
-      result.innerHTML = '';
-
+    (async () => {
       try {
-        const res = await fetch('/api/fortune');
+        const res = await fetch('./fortune.json', { cache: 'no-store' });
         const data = await res.json();
 
         if (!res.ok) {
@@ -188,11 +171,8 @@
         result.innerHTML = html;
       } catch (err) {
         result.innerHTML = `<p class="error">${err.message}</p>`;
-      } finally {
-        btn.disabled = false;
-        btn.textContent = '운세 보기';
       }
-    });
+    })();
   </script>
 </body>
 </html>
