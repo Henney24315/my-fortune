@@ -58,17 +58,6 @@
     line-height: 1.5;
     word-break: keep-all;
   }
-  .monthly-card {
-    background: #f5f2fc;
-    border-radius: 12px;
-    padding: 16px;
-  }
-  .monthly-card p {
-    margin: 0;
-    font-size: 13px;
-    line-height: 1.6;
-    white-space: pre-wrap;
-  }
   .day-list {
     display: flex;
     flex-direction: column;
@@ -117,6 +106,13 @@
           <div class="value">${h.colorNote}</div>
         </div>` : '';
 
+      const energyParts = [h.scoreLabel, h.specialDay].filter(Boolean);
+      const energy = energyParts.length ? `
+        <div class="highlight-card highlight-note">
+          <div class="label">기운</div>
+          <div class="value">${energyParts.join(' · ')}</div>
+        </div>` : '';
+
       return `
         <h2 class="section-tit">${title}</h2>
         <div class="highlight">
@@ -133,8 +129,14 @@
             <div class="value">${h.color}</div>
           </div>
           ${note}
+          ${energy}
         </div>
       `;
+    }
+
+    function formatDayScore(day) {
+      if (day.score === day.scoreLabel) return day.score;
+      return `${day.score}점 (${day.scoreLabel})`;
     }
 
     (async () => {
@@ -150,18 +152,12 @@
         html += renderHighlight('오늘', data.today);
         html += renderHighlight('내일', data.tomorrow);
 
-        html += `
-          <h2 class="section-tit">${data.monthly.title}</h2>
-          <div class="monthly-card">
-            <p>${data.monthly.content}</p>
-          </div>
-        `;
-
         html += '<h2 class="section-tit">앞으로 7일간의 운세</h2><div class="day-list">';
         for (const day of data.next7Days) {
+          const specialText = day.specialDay ? ` · ${day.specialDay}` : '';
           html += `
             <div class="day-card">
-              <div class="day-head"><span>${day.date}</span><span>${day.score}점</span></div>
+              <div class="day-head"><span>${day.date}</span><span>${formatDayScore(day)}${specialText}</span></div>
               <p>${day.content}</p>
             </div>
           `;
