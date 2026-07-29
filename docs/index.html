@@ -123,13 +123,54 @@
     color: #888;
     margin-top: 16px;
   }
+  .gate {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+  }
+  .gate input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  .gate button {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background: #6b46c1;
+    color: #fff;
+    cursor: pointer;
+  }
 </style>
 </head>
 <body>
-  <h1>오늘의 운세</h1>
-  <div id="result"><p class="loading">불러오는 중...</p></div>
+  <div id="gate" class="gate">
+    <p>비밀번호를 입력하세요</p>
+    <input type="password" id="gate-pw" autocomplete="off">
+    <button id="gate-btn">확인</button>
+    <p id="gate-error" class="error" hidden>비밀번호가 틀렸습니다.</p>
+  </div>
+
+  <div id="app" hidden>
+    <h1>오늘의 운세</h1>
+    <div id="result"><p class="loading">불러오는 중...</p></div>
+  </div>
 
   <script>
+    const GATE_PASSWORD = '880204';
+    const GATE_KEY = 'fortune_gate_ok';
+
+    const gate = document.getElementById('gate');
+    const app = document.getElementById('app');
+    const gatePw = document.getElementById('gate-pw');
+    const gateBtn = document.getElementById('gate-btn');
+    const gateError = document.getElementById('gate-error');
     const result = document.getElementById('result');
 
     const COLOR_MAP = {
@@ -181,6 +222,13 @@
       return `<span class="energy-tag" style="background:${bg}">${h.scoreLabel}${specialText}</span>`;
     }
 
+    function colorizeWeekday(dateStr) {
+      return dateStr.replace(/\(([월화수목금토일])\)/, (match, wd) => {
+        const color = wd === '토' ? '#1e88e5' : wd === '일' ? '#e53935' : '#222';
+        return `(<span style="color:${color}">${wd}</span>)`;
+      });
+    }
+
     function renderHighlight(title, h) {
       const note = h.colorNote ? `
         <div class="highlight-card highlight-note">
@@ -193,7 +241,7 @@
         <div class="highlight">
           <div class="highlight-card">
             <div class="label">날짜</div>
-            <div class="value">${h.date}</div>
+            <div class="value">${colorizeWeekday(h.date)}</div>
           </div>
           <div class="highlight-card">
             <div class="label">확률 · 기운</div>
@@ -214,7 +262,7 @@
       return `${day.score}점 (${day.scoreLabel})`;
     }
 
-    (async () => {
+    async function loadFortune() {
       try {
         const res = await fetch('./fortune.json', { cache: 'no-store' });
         const data = await res.json();
@@ -232,7 +280,7 @@
           const specialText = day.specialDay ? ` · ${day.specialDay}` : '';
           html += `
             <div class="day-card">
-              <div class="day-head"><span>${day.date}</span><span>${formatDayScore(day)}${specialText}</span></div>
+              <div class="day-head"><span>${colorizeWeekday(day.date)}</span><span>${formatDayScore(day)}${specialText}</span></div>
               <p>${day.content}</p>
             </div>
           `;
@@ -243,7 +291,31 @@
       } catch (err) {
         result.innerHTML = `<p class="error">${err.message}</p>`;
       }
-    })();
+    }
+
+    function unlock() {
+      gate.hidden = true;
+      app.hidden = false;
+      loadFortune();
+    }
+
+    function tryPassword() {
+      if (gatePw.value === GATE_PASSWORD) {
+        localStorage.setItem(GATE_KEY, '1');
+        unlock();
+      } else {
+        gateError.hidden = false;
+      }
+    }
+
+    gateBtn.addEventListener('click', tryPassword);
+    gatePw.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') tryPassword();
+    });
+
+    if (localStorage.getItem(GATE_KEY) === '1') {
+      unlock();
+    }
   </script>
 </body>
 </html>

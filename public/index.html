@@ -187,6 +187,13 @@
         .join('');
     }
 
+    function colorizeWeekday(dateStr) {
+      return dateStr.replace(/\(([월화수목금토일])\)/, (match, wd) => {
+        const color = wd === '토' ? '#1e88e5' : wd === '일' ? '#e53935' : '#222';
+        return `(<span style="color:${color}">${wd}</span>)`;
+      });
+    }
+
     function energyTag(h) {
       if (!h.scoreLabel) return '';
       const bg = SCORE_COLORS[h.score] || SCORE_FALLBACK_COLOR;
@@ -206,7 +213,7 @@
         <div class="highlight">
           <div class="highlight-card">
             <div class="label">날짜</div>
-            <div class="value">${h.date}</div>
+            <div class="value">${colorizeWeekday(h.date)}</div>
           </div>
           <div class="highlight-card">
             <div class="label">확률 · 기운</div>
@@ -249,7 +256,7 @@
           const specialText = day.specialDay ? ` · ${day.specialDay}` : '';
           html += `
             <div class="day-card">
-              <div class="day-head"><span>${day.date}</span><span>${formatDayScore(day)}${specialText}</span></div>
+              <div class="day-head"><span>${colorizeWeekday(day.date)}</span><span>${formatDayScore(day)}${specialText}</span></div>
               <p>${day.content}</p>
             </div>
           `;
