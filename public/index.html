@@ -45,15 +45,14 @@
     gap: 10px;
   }
   .highlight-card {
-    background: linear-gradient(135deg, #6b46c1, #9061e0);
-    color: #fff;
+    border: 1px solid #e5e5e5;
     border-radius: 12px;
     padding: 16px 8px;
     text-align: center;
   }
   .highlight-card .label {
     font-size: 12px;
-    opacity: 0.85;
+    color: #888;
     margin-bottom: 6px;
   }
   .highlight-card .value {
@@ -61,6 +60,7 @@
     font-weight: 700;
     line-height: 1.2;
     word-break: keep-all;
+    color: #222;
   }
   .highlight-note {
     grid-column: 1 / -1;
@@ -73,13 +73,36 @@
     line-height: 1.5;
     word-break: keep-all;
   }
+  .color-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+  }
+  .color-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 10px;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+  }
+  .color-tag .swatch {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
   .day-list {
     display: flex;
     flex-direction: column;
     gap: 8px;
   }
   .day-card {
-    background: #f5f2fc;
+    border: 1px solid #e5e5e5;
     border-radius: 10px;
     padding: 10px 14px;
   }
@@ -88,7 +111,7 @@
     justify-content: space-between;
     font-weight: 700;
     font-size: 13px;
-    color: #6b46c1;
+    color: #444;
     margin-bottom: 4px;
   }
   .day-card p {
@@ -111,6 +134,37 @@
   <script>
     const btn = document.getElementById('load-btn');
     const result = document.getElementById('result');
+
+    const COLOR_MAP = {
+      '흰색': '#ffffff', '하얀색': '#ffffff',
+      '검은색': '#222222', '까만색': '#222222',
+      '빨간색': '#e53935', '홍색': '#e53935',
+      '주황색': '#fb8c00',
+      '노란색': '#fdd835',
+      '초록색': '#43a047', '녹색': '#43a047',
+      '파란색': '#1e88e5',
+      '남색': '#1a237e', '곤색': '#1a237e', '진곤색': '#0d1b4c',
+      '보라색': '#8e24aa', '자주색': '#8e24aa',
+      '분홍색': '#ec407a',
+      '갈색': '#6d4c41',
+      '회색': '#9e9e9e',
+      '은색': '#c0c0c0',
+      '금색': '#d4af37',
+      '하늘색': '#4fc3f7',
+      '연두색': '#9ccc65',
+    };
+
+    function colorTags(colorStr) {
+      return colorStr
+        .split(',')
+        .map((raw) => raw.trim())
+        .filter(Boolean)
+        .map((name) => {
+          const hex = COLOR_MAP[name] || '#cccccc';
+          return `<span class="color-tag"><span class="swatch" style="background:${hex}"></span>${name}</span>`;
+        })
+        .join('');
+    }
 
     function renderHighlight(title, h) {
       const note = h.colorNote ? `
@@ -139,7 +193,7 @@
           </div>
           <div class="highlight-card">
             <div class="label">행운의 색상</div>
-            <div class="value">${h.color}</div>
+            <div class="value color-tags">${colorTags(h.color)}</div>
           </div>
           ${note}
           ${energy}
