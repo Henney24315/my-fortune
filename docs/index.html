@@ -110,7 +110,7 @@
     margin-bottom: 4px;
   }
   .day-card p {
-    margin: 0;
+    margin: 6px 0 0;
     font-size: 12px;
     line-height: 1.5;
     color: #333;
@@ -257,9 +257,8 @@
       `;
     }
 
-    function formatDayScore(day) {
-      if (day.score === day.scoreLabel) return day.score;
-      return `${day.score}점 (${day.scoreLabel})`;
+    function formatDayScoreNumber(day) {
+      return day.score === day.scoreLabel ? '' : `${day.score}점`;
     }
 
     async function loadFortune() {
@@ -277,10 +276,10 @@
 
         html += '<h2 class="section-tit">앞으로 7일간의 운세</h2><div class="day-list">';
         for (const day of data.next7Days) {
-          const specialText = day.specialDay ? ` · ${day.specialDay}` : '';
           html += `
             <div class="day-card">
-              <div class="day-head"><span>${colorizeWeekday(day.date)}</span><span>${formatDayScore(day)}${specialText}</span></div>
+              <div class="day-head"><span>${colorizeWeekday(day.date)}</span><span>${formatDayScoreNumber(day)}</span></div>
+              ${energyTag(day)}
               <p>${day.content}</p>
             </div>
           `;
