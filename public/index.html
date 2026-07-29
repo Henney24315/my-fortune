@@ -19,6 +19,11 @@
     font-size: clamp(20px, 6vw, 24px);
     margin-bottom: 16px;
   }
+  h2.section-tit {
+    font-size: 15px;
+    margin: 28px 0 10px;
+    color: #444;
+  }
   button {
     width: 100%;
     padding: 14px 20px;
@@ -38,7 +43,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    margin-top: 20px;
   }
   .highlight-card {
     background: linear-gradient(135deg, #6b46c1, #9061e0);
@@ -53,7 +57,7 @@
     margin-bottom: 6px;
   }
   .highlight-card .value {
-    font-size: clamp(18px, 6vw, 24px);
+    font-size: clamp(16px, 5.5vw, 22px);
     font-weight: 700;
     line-height: 1.2;
     word-break: keep-all;
@@ -69,44 +73,190 @@
     line-height: 1.5;
     word-break: keep-all;
   }
-  .section {
-    margin-top: 24px;
-    padding-bottom: 16px;
-    border-bottom: 1px solid #eee;
+  .monthly-card {
+    background: #f5f2fc;
+    border-radius: 12px;
+    padding: 16px;
   }
-  .section h2 {
-    font-size: 16px;
+  .monthly-card h3 {
     margin: 0 0 8px;
+    font-size: 15px;
     color: #6b46c1;
   }
-  .section p {
+  .monthly-card p {
     margin: 0;
+    font-size: 13px;
     line-height: 1.6;
-    font-size: 14px;
     white-space: pre-wrap;
+  }
+  .day-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .day-card {
+    background: #f5f2fc;
+    border-radius: 10px;
+    padding: 10px 14px;
+  }
+  .day-card .day-head {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+    color: #6b46c1;
+    margin-bottom: 4px;
+  }
+  .day-card p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
   }
   .error {
     color: #c0392b;
     margin-top: 16px;
   }
+  .loading {
+    color: #888;
+    margin-top: 16px;
+  }
+  form.setup {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  form.setup[hidden] {
+    display: none;
+  }
+  form.setup label {
+    display: block;
+    font-size: 13px;
+    color: #444;
+    margin-bottom: 4px;
+  }
+  form.setup select,
+  form.setup input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  .reset-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+    text-decoration: underline;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+  }
 </style>
 </head>
 <body>
   <h1>오늘의 운세</h1>
-  <button id="load-btn">운세 보기</button>
-  <div id="highlight"></div>
+
+  <form id="setup-form" class="setup" hidden>
+    <div>
+      <label for="gender">성별</label>
+      <select id="gender" required>
+        <option value="">선택</option>
+        <option value="M">남자</option>
+        <option value="F">여자</option>
+      </select>
+    </div>
+    <div>
+      <label for="sl_cal">양/음력</label>
+      <select id="sl_cal" required>
+        <option value="">선택</option>
+        <option value="S">양력</option>
+        <option value="L">음력(평달)</option>
+        <option value="Z">음력(윤달)</option>
+      </select>
+    </div>
+    <div>
+      <label for="birth_date">생년월일</label>
+      <input type="date" id="birth_date" required min="1900-01-01">
+    </div>
+    <div>
+      <label for="birth_hour">태어난 시간</label>
+      <select id="birth_hour" required>
+        <option value="">선택</option>
+        <option value="00">조자시(00:00~01:30)</option>
+        <option value="02">축시(01:31~03:30)</option>
+        <option value="04">인시(03:31~05:30)</option>
+        <option value="06">묘시(05:31~07:30)</option>
+        <option value="08">진시(07:31~09:30)</option>
+        <option value="10">사시(09:31~11:30)</option>
+        <option value="12">오시(11:31~13:30)</option>
+        <option value="14">미시(13:31~15:30)</option>
+        <option value="16">신시(15:31~17:30)</option>
+        <option value="18">유시(17:31~19:30)</option>
+        <option value="20">술시(19:31~21:30)</option>
+        <option value="22">해시(21:31~23:30)</option>
+        <option value="24">야자시(23:31~24:00)</option>
+      </select>
+    </div>
+    <button type="submit">저장하고 운세 보기</button>
+  </form>
+
   <div id="result"></div>
+  <button id="reset-btn" class="reset-link" hidden>정보 다시 입력</button>
 
   <script>
-    const btn = document.getElementById('load-btn');
-    const highlight = document.getElementById('highlight');
+    const COOKIE_NAME = 'fortune_profile';
+    const setupForm = document.getElementById('setup-form');
     const result = document.getElementById('result');
+    const resetBtn = document.getElementById('reset-btn');
 
-    btn.addEventListener('click', async () => {
-      btn.disabled = true;
-      btn.textContent = '불러오는 중...';
-      highlight.innerHTML = '';
-      result.innerHTML = '';
+    function getCookie(name) {
+      const match = document.cookie.match(new RegExp(`(?:^|; )${name}=([^;]*)`));
+      return match ? decodeURIComponent(match[1]) : null;
+    }
+
+    function setCookie(name, value) {
+      const maxAge = 60 * 60 * 24 * 730; // 2년
+      document.cookie = `${name}=${encodeURIComponent(value)}; path=/; max-age=${maxAge}; samesite=lax`;
+    }
+
+    function clearCookie(name) {
+      document.cookie = `${name}=; path=/; max-age=0`;
+    }
+
+    function renderHighlight(title, h) {
+      const note = h.colorNote ? `
+        <div class="highlight-card highlight-note">
+          <div class="label">색상 관련 조언</div>
+          <div class="value">${h.colorNote}</div>
+        </div>` : '';
+
+      return `
+        <h2 class="section-tit">${title}</h2>
+        <div class="highlight">
+          <div class="highlight-card">
+            <div class="label">날짜</div>
+            <div class="value">${h.date}</div>
+          </div>
+          <div class="highlight-card">
+            <div class="label">확률</div>
+            <div class="value">${h.percentage}</div>
+          </div>
+          <div class="highlight-card">
+            <div class="label">행운의 색상</div>
+            <div class="value">${h.color}</div>
+          </div>
+          ${note}
+        </div>
+      `;
+    }
+
+    async function loadFortune() {
+      result.innerHTML = '<p class="loading">불러오는 중...</p>';
+      resetBtn.hidden = true;
 
       try {
         const res = await fetch('/api/fortune');
@@ -116,45 +266,71 @@
           throw new Error(data.error || '요청 실패');
         }
 
-        const h = data.highlight;
-        if (h) {
-          highlight.innerHTML = `
-            <div class="highlight">
-              <div class="highlight-card">
-                <div class="label">날짜</div>
-                <div class="value">${h.date}</div>
-              </div>
-              <div class="highlight-card">
-                <div class="label">오늘의 확률</div>
-                <div class="value">${h.percentage}</div>
-              </div>
-              <div class="highlight-card">
-                <div class="label">행운의 색상</div>
-                <div class="value">${h.color}</div>
-              </div>
-              ${h.colorNote ? `
-              <div class="highlight-card highlight-note">
-                <div class="label">색상 관련 조언</div>
-                <div class="value">${h.colorNote}</div>
-              </div>
-              ` : ''}
+        let html = '';
+        html += renderHighlight('오늘', data.today);
+        html += renderHighlight('내일', data.tomorrow);
+
+        html += `
+          <h2 class="section-tit">${data.monthly.title}</h2>
+          <div class="monthly-card">
+            <p>${data.monthly.content}</p>
+          </div>
+        `;
+
+        html += '<h2 class="section-tit">앞으로 7일간의 운세</h2><div class="day-list">';
+        for (const day of data.next7Days) {
+          html += `
+            <div class="day-card">
+              <div class="day-head"><span>${day.date}</span><span>${day.score}점</span></div>
+              <p>${day.content}</p>
             </div>
           `;
         }
+        html += '</div>';
 
-        for (const { title, content } of data.sections) {
-          const div = document.createElement('div');
-          div.className = 'section';
-          div.innerHTML = `<h2>${title}</h2><p>${content}</p>`;
-          result.appendChild(div);
-        }
+        result.innerHTML = html;
+        resetBtn.hidden = false;
       } catch (err) {
         result.innerHTML = `<p class="error">${err.message}</p>`;
-      } finally {
-        btn.disabled = false;
-        btn.textContent = '운세 보기';
+        resetBtn.hidden = false;
       }
+    }
+
+    function showSetupForm() {
+      setupForm.hidden = false;
+      result.innerHTML = '';
+      resetBtn.hidden = true;
+    }
+
+    setupForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const [birth_year, birth_month, birth_day] = document.getElementById('birth_date').value.split('-');
+
+      const profile = {
+        gender: document.getElementById('gender').value,
+        sl_cal: document.getElementById('sl_cal').value,
+        birth_year,
+        birth_month,
+        birth_day,
+        birth_hour: document.getElementById('birth_hour').value,
+      };
+
+      setCookie(COOKIE_NAME, JSON.stringify(profile));
+      setupForm.hidden = true;
+      loadFortune();
     });
+
+    resetBtn.addEventListener('click', () => {
+      clearCookie(COOKIE_NAME);
+      showSetupForm();
+    });
+
+    if (getCookie(COOKIE_NAME)) {
+      loadFortune();
+    } else {
+      showSetupForm();
+    }
   </script>
 </body>
 </html>
