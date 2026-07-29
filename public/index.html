@@ -73,22 +73,21 @@
     line-height: 1.5;
     word-break: keep-all;
   }
-  .energy-card {
+  .score-badge {
+    display: inline-block;
     color: #fff;
+    padding: 3px 12px;
+    border-radius: 6px;
+    font-size: 14px;
   }
-  .energy-card .label {
-    color: rgba(255, 255, 255, 0.85);
-  }
-  .energy-card .value {
-    color: #fff;
-  }
-  .energy-card .energy-label {
-    display: block;
-    margin-top: 4px;
+  .energy-label {
     font-size: 12px;
     font-weight: 600;
-    color: #fff;
     word-break: keep-all;
+  }
+  .highlight-card .energy-label {
+    display: block;
+    margin-top: 4px;
   }
   .color-tags {
     display: flex;
@@ -134,14 +133,8 @@
     margin-bottom: 4px;
   }
   .day-card .score-badge {
-    color: #fff;
     padding: 2px 8px;
-    border-radius: 6px;
     font-size: 12px;
-  }
-  .day-card .energy-label {
-    font-size: 12px;
-    font-weight: 600;
   }
   .day-card p {
     margin: 6px 0 0;
@@ -243,10 +236,10 @@
             <div class="label">날짜</div>
             <div class="value">${colorizeWeekday(h.date)}</div>
           </div>
-          <div class="highlight-card energy-card" style="background:${color}">
+          <div class="highlight-card">
             <div class="label">확률 · 기운</div>
-            <div class="value">${scoreText(h)}</div>
-            ${extraLabel ? `<div class="energy-label">${extraLabel}</div>` : ''}
+            <div class="value"><span class="score-badge" style="background:${color}">${scoreText(h)}</span></div>
+            ${extraLabel ? `<div class="energy-label" style="color:${color}">${extraLabel}</div>` : ''}
           </div>
           <div class="highlight-card">
             <div class="label">행운의 색상</div>
