@@ -4,6 +4,7 @@
     "percentage": "30%",
     "color": "흰색,  초록색",
     "colorNote": "오늘은 색상보다는 보이는 이미지가 더욱 중요한 날입니다.",
+    "score": "30",
     "scoreLabel": "나쁨",
     "specialDay": ""
   },
@@ -12,6 +13,7 @@
     "percentage": "40%",
     "color": "자주색,  초록색",
     "colorNote": "",
+    "score": "40",
     "scoreLabel": "좋지않음",
     "specialDay": ""
   },

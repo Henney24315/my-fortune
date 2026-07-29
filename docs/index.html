@@ -58,6 +58,16 @@
     line-height: 1.5;
     word-break: keep-all;
   }
+  .energy-tag {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    word-break: keep-all;
+  }
   .color-tags {
     display: flex;
     flex-wrap: wrap;
@@ -141,6 +151,17 @@
       '연두색': '#9ccc65',
     };
 
+    const SCORE_COLORS = {
+      90: '#2275bd',
+      80: '#1b99af',
+      70: '#039ad8',
+      60: '#0c9802',
+      50: '#887c01',
+      40: '#e55506',
+      30: '#fe2400',
+    };
+    const SCORE_FALLBACK_COLOR = '#cc162c';
+
     function colorTags(colorStr) {
       return colorStr
         .split(',')
@@ -153,18 +174,18 @@
         .join('');
     }
 
+    function energyTag(h) {
+      if (!h.scoreLabel) return '';
+      const bg = SCORE_COLORS[h.score] || SCORE_FALLBACK_COLOR;
+      const specialText = h.specialDay ? ` · ${h.specialDay}` : '';
+      return `<span class="energy-tag" style="background:${bg}">${h.scoreLabel}${specialText}</span>`;
+    }
+
     function renderHighlight(title, h) {
       const note = h.colorNote ? `
         <div class="highlight-card highlight-note">
           <div class="label">색상 관련 조언</div>
           <div class="value">${h.colorNote}</div>
-        </div>` : '';
-
-      const energyParts = [h.scoreLabel, h.specialDay].filter(Boolean);
-      const energy = energyParts.length ? `
-        <div class="highlight-card highlight-note">
-          <div class="label">기운</div>
-          <div class="value">${energyParts.join(' · ')}</div>
         </div>` : '';
 
       return `
@@ -175,15 +196,15 @@
             <div class="value">${h.date}</div>
           </div>
           <div class="highlight-card">
-            <div class="label">확률</div>
+            <div class="label">확률 · 기운</div>
             <div class="value">${h.percentage}</div>
+            ${energyTag(h)}
           </div>
           <div class="highlight-card">
             <div class="label">행운의 색상</div>
             <div class="value color-tags">${colorTags(h.color)}</div>
           </div>
           ${note}
-          ${energy}
         </div>
       `;
     }
