@@ -35,12 +35,12 @@
     cursor: default;
   }
   .highlight {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin-top: 20px;
   }
   .highlight-card {
-    flex: 1;
     background: linear-gradient(135deg, #6b46c1, #9061e0);
     color: #fff;
     border-radius: 12px;
@@ -56,6 +56,17 @@
     font-size: clamp(18px, 6vw, 24px);
     font-weight: 700;
     line-height: 1.2;
+    word-break: keep-all;
+  }
+  .highlight-note {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 12px 8px;
+  }
+  .highlight-note .value {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
     word-break: keep-all;
   }
   .section {
@@ -121,6 +132,12 @@
                 <div class="label">행운의 색상</div>
                 <div class="value">${h.color}</div>
               </div>
+              ${h.colorNote ? `
+              <div class="highlight-card highlight-note">
+                <div class="label">색상 관련 조언</div>
+                <div class="value">${h.colorNote}</div>
+              </div>
+              ` : ''}
             </div>
           `;
         }

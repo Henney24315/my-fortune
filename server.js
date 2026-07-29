@@ -94,6 +94,7 @@ async function fetchFortune() {
     date: `${dateMatch ? dateMatch[0] : `${Number(month)}월 ${Number(day)}일`} (${weekday})`,
     percentage: $('.result_cont').first().find('.u_point').first().text().trim(),
     color: '',
+    colorNote: '',
   };
 
   $('.result_cont').last().find('.up_list li').each((_, li) => {
@@ -102,6 +103,16 @@ async function fetchFortune() {
       highlight.color = text.split(':').slice(1).join(':').trim();
     }
   });
+
+  const lastSection = sections[sections.length - 1];
+  if (lastSection) {
+    const note = lastSection.content
+      .split(/(?<=[.!?])\s+/)
+      .find((sentence) => sentence.includes('색상보다는'));
+    if (note) {
+      highlight.colorNote = note.trim();
+    }
+  }
 
   return { sections, highlight };
 }
