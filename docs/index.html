@@ -58,14 +58,16 @@
     line-height: 1.5;
     word-break: keep-all;
   }
-  .energy-tag {
-    display: inline-block;
-    margin-top: 8px;
-    padding: 3px 10px;
-    border-radius: 999px;
-    font-size: 11px;
+  .score-energy-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 6px;
+    text-align: left;
+  }
+  .score-energy-row .energy-label {
+    font-size: 12px;
     font-weight: 600;
-    color: #fff;
     word-break: keep-all;
   }
   .color-tags {
@@ -102,12 +104,21 @@
     padding: 10px 14px;
   }
   .day-card .day-head {
-    display: flex;
-    justify-content: space-between;
     font-weight: 700;
     font-size: 13px;
     color: #444;
     margin-bottom: 4px;
+  }
+  .day-card .day-score-row {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .day-card .day-score-row .energy-label {
+    font-size: 12px;
+    font-weight: 600;
   }
   .day-card p {
     margin: 6px 0 0;
@@ -128,6 +139,9 @@
     flex-direction: column;
     gap: 10px;
     margin-top: 40px;
+  }
+  .gate[hidden] {
+    display: none;
   }
   .gate input {
     width: 100%;
@@ -215,18 +229,19 @@
         .join('');
     }
 
-    function energyTag(h) {
-      if (!h.scoreLabel) return '';
-      const bg = SCORE_COLORS[h.score] || SCORE_FALLBACK_COLOR;
-      const specialText = h.specialDay ? ` · ${h.specialDay}` : '';
-      return `<span class="energy-tag" style="background:${bg}">${h.scoreLabel}${specialText}</span>`;
-    }
-
     function colorizeWeekday(dateStr) {
       return dateStr.replace(/\(([월화수목금토일])\)/, (match, wd) => {
         const color = wd === '토' ? '#1e88e5' : wd === '일' ? '#e53935' : '#222';
         return `(<span style="color:${color}">${wd}</span>)`;
       });
+    }
+
+    function energyColor(obj) {
+      return SCORE_COLORS[obj.score] || SCORE_FALLBACK_COLOR;
+    }
+
+    function energyLabelText(obj) {
+      return [obj.scoreLabel, obj.specialDay].filter(Boolean).join(' · ');
     }
 
     function renderHighlight(title, h) {
@@ -235,6 +250,11 @@
           <div class="label">색상 관련 조언</div>
           <div class="value">${h.colorNote}</div>
         </div>` : '';
+
+      const color = energyColor(h);
+      const probability = h.scoreLabel
+        ? `<span style="color:${color}">${h.percentage}</span><span class="energy-label" style="color:${color}">${energyLabelText(h)}</span>`
+        : h.percentage;
 
       return `
         <h2 class="section-tit">${title}</h2>
@@ -245,8 +265,7 @@
           </div>
           <div class="highlight-card">
             <div class="label">확률 · 기운</div>
-            <div class="value">${h.percentage}</div>
-            ${energyTag(h)}
+            <div class="value score-energy-row">${probability}</div>
           </div>
           <div class="highlight-card">
             <div class="label">행운의 색상</div>
@@ -257,8 +276,12 @@
       `;
     }
 
-    function formatDayScoreNumber(day) {
-      return day.score === day.scoreLabel ? '' : `${day.score}점`;
+    function dayScoreRow(day) {
+      if (!day.scoreLabel) return '';
+      const color = energyColor(day);
+      const scoreText = day.score === day.scoreLabel ? '' : `${day.score}점`;
+      const scorePart = scoreText ? `<span style="color:${color}">${scoreText}</span>` : '';
+      return `<div class="day-score-row">${scorePart}<span class="energy-label" style="color:${color}">${energyLabelText(day)}</span></div>`;
     }
 
     async function loadFortune() {
@@ -278,8 +301,8 @@
         for (const day of data.next7Days) {
           html += `
             <div class="day-card">
-              <div class="day-head"><span>${colorizeWeekday(day.date)}</span><span>${formatDayScoreNumber(day)}</span></div>
-              ${energyTag(day)}
+              <div class="day-head">${colorizeWeekday(day.date)}</div>
+              ${dayScoreRow(day)}
               <p>${day.content}</p>
             </div>
           `;

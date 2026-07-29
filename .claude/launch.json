@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["start"],
       "port": 3000
+    },
+    {
+      "name": "my-fortune-docs",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4176"],
+      "port": 4176
     }
   ]
 }
