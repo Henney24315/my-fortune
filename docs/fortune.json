@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "7월 30일 (목)",
-    "percentage": "40%",
-    "color": "자주색,  초록색",
-    "colorNote": "",
-    "score": "40",
-    "scoreLabel": "좋지않음",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "7월 31일 (금)",
     "percentage": "50%",
     "color": "남색,  진회색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적 좋지않음",
     "specialDay": "도화"
   },
+  "tomorrow": {
+    "date": "8월 1일 (토)",
+    "percentage": "20%",
+    "color": "진회색,  검은색",
+    "colorNote": "",
+    "score": "최악",
+    "scoreLabel": "최악",
+    "specialDay": "양인"
+  },
   "next7Days": [
-    {
-      "date": "7월 30일 (목)",
-      "score": "40",
-      "scoreLabel": "좋지않음",
-      "specialDay": "",
-      "content": "반드시 처리해야 할 일들이 생기는 시기이며 가까운 사람으로 인하여 문제가 발생합니다. 다소 힘든 시기에 해당하는 날이니 주변 사람들에 대한 관리를 더욱 철저히 하시기 바랍니다."
-    },
     {
       "date": "7월 31일 (금)",
       "score": "50",
@@ -66,6 +59,13 @@
       "scoreLabel": "좋음",
       "specialDay": "역마",
       "content": "의외의 결과로 인하여 뜻하지 않은 곳에서 도움을 받을 수 있습니다. 원수도 도움이 되는 경우가 있는데 이 시기가 바로 그러한 운세입니다. 매사의 진행이 비교적 수월하니 활용을 많이 하시기 바랍니다."
+    },
+    {
+      "date": "8월 6일 (목)",
+      "score": "70",
+      "scoreLabel": "비교적좋음",
+      "specialDay": "천을",
+      "content": "문제가 없는 날이 아니라 만회가 되는 날입니다. 어려움이 생기고 이를 극복하는 날이니 최상의 흐름은 아니지만 문제를 해결할 만한 기운은 충분한 날입니다."
     }
   ]
 }
