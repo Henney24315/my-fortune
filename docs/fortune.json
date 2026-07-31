@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "7월 31일 (금)",
-    "percentage": "50%",
-    "color": "남색,  진회색",
-    "colorNote": "",
-    "score": "50",
-    "scoreLabel": "비교적 좋지않음",
-    "specialDay": "도화"
-  },
-  "tomorrow": {
     "date": "8월 1일 (토)",
     "percentage": "20%",
     "color": "진회색,  검은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "최악",
     "specialDay": "양인"
   },
+  "tomorrow": {
+    "date": "8월 2일 (일)",
+    "percentage": "70%",
+    "color": "흰색,  남색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": "천을"
+  },
   "next7Days": [
-    {
-      "date": "7월 31일 (금)",
-      "score": "50",
-      "scoreLabel": "비교적 좋지않음",
-      "specialDay": "도화",
-      "content": "지출이 빈번하게 생기는 시기이니 들어오고 나감이 쉽게 제어가 되지 않습니다. 수익보다는 지출이 다소 많은 날이므로 지출의 관리에 더욱 신경을 쓰시기 바랍니다."
-    },
     {
       "date": "8월 1일 (토)",
       "score": "최악",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적좋음",
       "specialDay": "천을",
       "content": "문제가 없는 날이 아니라 만회가 되는 날입니다. 어려움이 생기고 이를 극복하는 날이니 최상의 흐름은 아니지만 문제를 해결할 만한 기운은 충분한 날입니다."
+    },
+    {
+      "date": "8월 7일 (금)",
+      "score": "50",
+      "scoreLabel": "비교적 좋지않음",
+      "specialDay": "",
+      "content": "진행하던 일에 차질이 생기는 시기입니다. 문제가 없던 곳에서 생길 것이니 차분하게 살펴보세요. 미리 대비할 수 있는 문제지만 대비하지 않으면 곤란에 빠집니다."
     }
   ]
 }
