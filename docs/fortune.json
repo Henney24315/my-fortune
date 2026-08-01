@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 1일 (토)",
-    "percentage": "20%",
-    "color": "진회색,  검은색",
-    "colorNote": "",
-    "score": "최악",
-    "scoreLabel": "최악",
-    "specialDay": "양인"
-  },
-  "tomorrow": {
     "date": "8월 2일 (일)",
     "percentage": "70%",
     "color": "흰색,  남색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적좋음",
     "specialDay": "천을"
   },
+  "tomorrow": {
+    "date": "8월 3일 (월)",
+    "percentage": "70%",
+    "color": "보라색,  검은색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "8월 1일 (토)",
-      "score": "최악",
-      "scoreLabel": "최악",
-      "specialDay": "양인",
-      "content": "고집이 강해지는 날로 일의 흐름이 잘 풀린다고 해도 항상 마무리를 점검해야 합니다. 짜증 나는 일이 생겨도 절대 무리하지 않도록 조심하시기 바랍니다."
-    },
     {
       "date": "8월 2일 (일)",
       "score": "70",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적 좋지않음",
       "specialDay": "",
       "content": "진행하던 일에 차질이 생기는 시기입니다. 문제가 없던 곳에서 생길 것이니 차분하게 살펴보세요. 미리 대비할 수 있는 문제지만 대비하지 않으면 곤란에 빠집니다."
+    },
+    {
+      "date": "8월 8일 (토)",
+      "score": "50",
+      "scoreLabel": "비교적 좋지않음",
+      "specialDay": "",
+      "content": "지킬 수 없는 약속을 해서는 안 됩니다. 재물과 관련된 부분이나 약속 신뢰 등의 부분에 민감한 시기로 무리하지 않는다면 크게 좋지 않은 일은 발생하지 않을 것입니다. 그러나 썩 좋은 시기는 아니므로 매사 신중하시기 바랍니다."
     }
   ]
 }
