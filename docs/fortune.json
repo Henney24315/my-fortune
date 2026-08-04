@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 4일 (화)",
-    "percentage": "60%",
-    "color": "분홍색,  노란색",
-    "colorNote": "",
-    "score": "60",
-    "scoreLabel": "보통",
-    "specialDay": "월덕/천덕"
-  },
-  "tomorrow": {
     "date": "8월 5일 (수)",
     "percentage": "80%",
     "color": "남색,  진분홍색",
@@ -17,14 +8,16 @@
     "scoreLabel": "좋음",
     "specialDay": "역마"
   },
+  "tomorrow": {
+    "date": "8월 6일 (목)",
+    "percentage": "70%",
+    "color": "흰색,  남색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": "천을"
+  },
   "next7Days": [
-    {
-      "date": "8월 4일 (화)",
-      "score": "60",
-      "scoreLabel": "보통",
-      "specialDay": "월덕/천덕",
-      "content": "타인의 일에 관여하지 마세요. 나 만의 일로 문제가 생기지는 않습니다. 무엇인가에 관여하거나 얻으려 하면 문제가 생길 수 있습니다. 평이한 흐름이니 평소 이상의 것을 얻기에는 부족합니다."
-    },
     {
       "date": "8월 5일 (수)",
       "score": "80",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적 좋지않음",
       "specialDay": "",
       "content": "나의 것을 각별히 지켜야 합니다. 정서적으로 혼란이 오는 시기인데 다행히 나를 지키는 기운도 함께 존재 하는군요. 마음만 잘 다스리면 문제가 되지 않을 것이니 주의하시기 바랍니다."
+    },
+    {
+      "date": "8월 11일 (화)",
+      "score": "60",
+      "scoreLabel": "보통",
+      "specialDay": "",
+      "content": "불필요한 지출이 생길 것입니다. 하지만 관리가 되는 시기입니다. 미리 살피면 모두 막을 수 있는 지출이기에 문제가 되지 않을 수 있습니다."
     }
   ]
 }
