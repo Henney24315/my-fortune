@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 10일 (월)",
-    "percentage": "50%",
-    "color": "보라색,  밝은 녹색",
-    "colorNote": "",
-    "score": "50",
-    "scoreLabel": "비교적 좋지않음",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "8월 11일 (화)",
     "percentage": "60%",
     "color": "주황색,  진분홍색",
@@ -17,14 +8,16 @@
     "scoreLabel": "보통",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "8월 12일 (수)",
+    "percentage": "50%",
+    "color": "자주색,  노란색",
+    "colorNote": "",
+    "score": "50",
+    "scoreLabel": "비교적 좋지않음",
+    "specialDay": "도화"
+  },
   "next7Days": [
-    {
-      "date": "8월 10일 (월)",
-      "score": "50",
-      "scoreLabel": "비교적 좋지않음",
-      "specialDay": "",
-      "content": "나의 것을 각별히 지켜야 합니다. 정서적으로 혼란이 오는 시기인데 다행히 나를 지키는 기운도 함께 존재 하는군요. 마음만 잘 다스리면 문제가 되지 않을 것이니 주의하시기 바랍니다."
-    },
     {
       "date": "8월 11일 (화)",
       "score": "60",
@@ -66,6 +59,13 @@
       "scoreLabel": "보통",
       "specialDay": "",
       "content": "어려움을 자초해서는 안됩니다. 모험을 하거나 요행을 바라는 일은 되지 않을 것입니다. 얻으려 노력하지 않으면 적어도 손해는 보지 않을 것입니다. 바라면 손해가 될 것이니 명심하시기 바랍니다."
+    },
+    {
+      "date": "8월 17일 (월)",
+      "score": "80",
+      "scoreLabel": "좋음",
+      "specialDay": "역마",
+      "content": "일적으로 흐름이 좋아지고 진행에 막힘이 있었던 부분들이 조금씩 풀려가는 시기입니다. 가족의 일로 인한 경사도 있는 시기입니다. 좋은 날입니다."
     }
   ]
 }
