@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 15일 (토)",
-    "percentage": "90%",
-    "color": "적색",
-    "colorNote": "",
-    "score": "90",
-    "scoreLabel": "아주좋음",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "8월 16일 (일)",
     "percentage": "60%",
     "color": "주황색,  노란색",
@@ -17,14 +8,16 @@
     "scoreLabel": "보통",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "8월 17일 (월)",
+    "percentage": "80%",
+    "color": "초록색,  남색",
+    "colorNote": "",
+    "score": "80",
+    "scoreLabel": "좋음",
+    "specialDay": "역마"
+  },
   "next7Days": [
-    {
-      "date": "8월 15일 (토)",
-      "score": "90",
-      "scoreLabel": "아주좋음",
-      "specialDay": "",
-      "content": "자신의 지위와 위치가 분명해지는 시기입니다. 판단력도 뛰어나며 주변이 자신의 능력을 저절로 알아주는 때이니 활용에 더욱 만전을 기해야 합니다. 시험이나 승진에도 좋은 결과가 예상이 되는 시기입니다."
-    },
     {
       "date": "8월 16일 (일)",
       "score": "60",
@@ -66,6 +59,13 @@
       "scoreLabel": "보통",
       "specialDay": "",
       "content": "다소 답답함이 있기는 하지만 일이 크게 안 좋아지지는 않습니다. 일 적인 부분에서 자신이 해결해야 할 일로 인하여 많은 고민이 생길 것입니다."
+    },
+    {
+      "date": "8월 22일 (토)",
+      "score": "30",
+      "scoreLabel": "나쁨",
+      "specialDay": "",
+      "content": "재물과 관련한 약속, 차용, 보증 등은 크게 손해를 입는 날입니다. 주변의 부탁이나 권고에 흔들리지 마시기 바랍니다. 특히 재물을 운용하는 분들은 운용의 규모를 대폭 축소하시는 것이 현명합니다."
     }
   ]
 }
