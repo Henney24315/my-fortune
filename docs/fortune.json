@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 16일 (일)",
-    "percentage": "60%",
-    "color": "주황색,  노란색",
-    "colorNote": "",
-    "score": "60",
-    "scoreLabel": "보통",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "8월 17일 (월)",
     "percentage": "80%",
     "color": "초록색,  남색",
@@ -17,14 +8,16 @@
     "scoreLabel": "좋음",
     "specialDay": "역마"
   },
+  "tomorrow": {
+    "date": "8월 18일 (화)",
+    "percentage": "70%",
+    "color": "주황색,  흰색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": "천을"
+  },
   "next7Days": [
-    {
-      "date": "8월 16일 (일)",
-      "score": "60",
-      "scoreLabel": "보통",
-      "specialDay": "",
-      "content": "어려움을 자초해서는 안됩니다. 모험을 하거나 요행을 바라는 일은 되지 않을 것입니다. 얻으려 노력하지 않으면 적어도 손해는 보지 않을 것입니다. 바라면 손해가 될 것이니 명심하시기 바랍니다."
-    },
     {
       "date": "8월 17일 (월)",
       "score": "80",
@@ -66,6 +59,13 @@
       "scoreLabel": "나쁨",
       "specialDay": "",
       "content": "재물과 관련한 약속, 차용, 보증 등은 크게 손해를 입는 날입니다. 주변의 부탁이나 권고에 흔들리지 마시기 바랍니다. 특히 재물을 운용하는 분들은 운용의 규모를 대폭 축소하시는 것이 현명합니다."
+    },
+    {
+      "date": "8월 23일 (일)",
+      "score": "50",
+      "scoreLabel": "비교적 좋지않음",
+      "specialDay": "",
+      "content": "자칫 가까운 사람과의 다툼 수로 인하여 스스로 외로움을 자초할 수 있습니다. 무리하여 일을 도모하면 위치와 재물에 손실이 올 것이나 자중하면 문제가 없습니다."
     }
   ]
 }
