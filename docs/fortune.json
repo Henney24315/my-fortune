@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 17일 (월)",
-    "percentage": "80%",
-    "color": "초록색,  남색",
-    "colorNote": "",
-    "score": "80",
-    "scoreLabel": "좋음",
-    "specialDay": "역마"
-  },
-  "tomorrow": {
     "date": "8월 18일 (화)",
     "percentage": "70%",
     "color": "주황색,  흰색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적좋음",
     "specialDay": "천을"
   },
+  "tomorrow": {
+    "date": "8월 19일 (수)",
+    "percentage": "40%",
+    "color": "분홍색,  초록색",
+    "colorNote": "",
+    "score": "40",
+    "scoreLabel": "좋지않음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "8월 17일 (월)",
-      "score": "80",
-      "scoreLabel": "좋음",
-      "specialDay": "역마",
-      "content": "일적으로 흐름이 좋아지고 진행에 막힘이 있었던 부분들이 조금씩 풀려가는 시기입니다. 가족의 일로 인한 경사도 있는 시기입니다. 좋은 날입니다."
-    },
     {
       "date": "8월 18일 (화)",
       "score": "70",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적 좋지않음",
       "specialDay": "",
       "content": "자칫 가까운 사람과의 다툼 수로 인하여 스스로 외로움을 자초할 수 있습니다. 무리하여 일을 도모하면 위치와 재물에 손실이 올 것이나 자중하면 문제가 없습니다."
+    },
+    {
+      "date": "8월 24일 (월)",
+      "score": "90",
+      "scoreLabel": "아주좋음",
+      "specialDay": "도화/월덕/천덕",
+      "content": "주변의 가까운 사람의 권유로 뜻하지 않은 도움을 받을 수 있는 시기입니다. 일이 풀리지 않을 경우 지인 들에게 도움을 요청하시기 바랍니다. 좋은 해답을 얻을 수 있는 시기입니다."
     }
   ]
 }
