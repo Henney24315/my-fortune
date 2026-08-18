@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 18일 (화)",
-    "percentage": "70%",
-    "color": "주황색,  흰색",
-    "colorNote": "",
-    "score": "70",
-    "scoreLabel": "비교적좋음",
-    "specialDay": "천을"
-  },
-  "tomorrow": {
     "date": "8월 19일 (수)",
     "percentage": "40%",
     "color": "분홍색,  초록색",
@@ -17,14 +8,16 @@
     "scoreLabel": "좋지않음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "8월 20일 (목)",
+    "percentage": "60%",
+    "color": "주황색,  노란색",
+    "colorNote": "",
+    "score": "60",
+    "scoreLabel": "보통",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "8월 18일 (화)",
-      "score": "70",
-      "scoreLabel": "비교적좋음",
-      "specialDay": "천을",
-      "content": "흐름에 무리는 없지만 기운이 다소 모자란 느낌이 드는 날입니다. 뭔가 부족한 듯 이루어지는 날이니 조금 모자라게 좋은 날입니다."
-    },
     {
       "date": "8월 19일 (수)",
       "score": "40",
@@ -66,6 +59,13 @@
       "scoreLabel": "아주좋음",
       "specialDay": "도화/월덕/천덕",
       "content": "주변의 가까운 사람의 권유로 뜻하지 않은 도움을 받을 수 있는 시기입니다. 일이 풀리지 않을 경우 지인 들에게 도움을 요청하시기 바랍니다. 좋은 해답을 얻을 수 있는 시기입니다."
+    },
+    {
+      "date": "8월 25일 (화)",
+      "score": "대립·좋은쪽",
+      "scoreLabel": "대립·좋은쪽",
+      "specialDay": "양인",
+      "content": "운의 흐름과 기운은 최상이지만 운의 흐름이 극단으로 대립합니다. 좋은 기운과 나쁜 기운이 공존하는 날로 가장 좋은 날이 될 수도 혹은 반드시 피해야 하는 날이 될 수도 있습니다."
     }
   ]
 }
