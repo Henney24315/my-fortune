@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 19일 (수)",
-    "percentage": "40%",
-    "color": "분홍색,  초록색",
-    "colorNote": "",
-    "score": "40",
-    "scoreLabel": "좋지않음",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "8월 20일 (목)",
     "percentage": "60%",
     "color": "주황색,  노란색",
@@ -17,14 +8,16 @@
     "scoreLabel": "보통",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "8월 21일 (금)",
+    "percentage": "60%",
+    "color": "검은색,  붉은색",
+    "colorNote": "",
+    "score": "60",
+    "scoreLabel": "보통",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "8월 19일 (수)",
-      "score": "40",
-      "scoreLabel": "좋지않음",
-      "specialDay": "",
-      "content": "자신의 위치가 다소 공격을 받는 일이 생길 것입니다. 나에게 도전하거나 나를 해 하려는 사람들이 주변에 있으니 경거망동 하지 말고 자중하는 것이 오늘의 지혜 입니다."
-    },
     {
       "date": "8월 20일 (목)",
       "score": "60",
@@ -66,6 +59,13 @@
       "scoreLabel": "대립·좋은쪽",
       "specialDay": "양인",
       "content": "운의 흐름과 기운은 최상이지만 운의 흐름이 극단으로 대립합니다. 좋은 기운과 나쁜 기운이 공존하는 날로 가장 좋은 날이 될 수도 혹은 반드시 피해야 하는 날이 될 수도 있습니다."
+    },
+    {
+      "date": "8월 26일 (수)",
+      "score": "90",
+      "scoreLabel": "아주좋음",
+      "specialDay": "천을",
+      "content": "타인을 통하여 존경을 받고 주변이 나를 먼저 청하는 경우가 많을 것입니다. 자신을 알아주는 이가 많으니 매사가 순조로우며 평안한 하루가 될 것입니다."
     }
   ]
 }
