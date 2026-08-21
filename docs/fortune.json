@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 21일 (금)",
-    "percentage": "60%",
-    "color": "검은색,  붉은색",
-    "colorNote": "",
-    "score": "60",
-    "scoreLabel": "보통",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "8월 22일 (토)",
     "percentage": "30%",
     "color": "남색,  진곤색",
@@ -17,14 +8,16 @@
     "scoreLabel": "나쁨",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "8월 23일 (일)",
+    "percentage": "50%",
+    "color": "남색,  회색",
+    "colorNote": "",
+    "score": "50",
+    "scoreLabel": "비교적 좋지않음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "8월 21일 (금)",
-      "score": "60",
-      "scoreLabel": "보통",
-      "specialDay": "",
-      "content": "다소 답답함이 있기는 하지만 일이 크게 안 좋아지지는 않습니다. 일 적인 부분에서 자신이 해결해야 할 일로 인하여 많은 고민이 생길 것입니다."
-    },
     {
       "date": "8월 22일 (토)",
       "score": "30",
@@ -66,6 +59,13 @@
       "scoreLabel": "아주좋음",
       "specialDay": "",
       "content": "직장 동료나 친인척 등 지인들의 도움으로 인하여 막혔던 일들이 수월하게 풀려나가는 시기입니다. 특히 대인관계를 통해 파생되는 일들을 많이 하시기 바랍니다."
+    },
+    {
+      "date": "8월 28일 (금)",
+      "score": "40",
+      "scoreLabel": "좋지않음",
+      "specialDay": "",
+      "content": "뜻하는 바를 이루기는 다소 힘든 시기입니다. 자신이 주도가 되어 중요한 일을 결정하는 일은 없도록 하시기 바랍니다. 공연한 구설에 휘말리지 않도록 대인관계에도 주의해야 합니다."
     }
   ]
 }
