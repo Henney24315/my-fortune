@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 22일 (토)",
-    "percentage": "30%",
-    "color": "남색,  진곤색",
-    "colorNote": "",
-    "score": "30",
-    "scoreLabel": "나쁨",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "8월 23일 (일)",
     "percentage": "50%",
     "color": "남색,  회색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적 좋지않음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "8월 24일 (월)",
+    "percentage": "90%",
+    "color": "적색",
+    "colorNote": "",
+    "score": "90",
+    "scoreLabel": "아주좋음",
+    "specialDay": "도화/월덕/천덕"
+  },
   "next7Days": [
-    {
-      "date": "8월 22일 (토)",
-      "score": "30",
-      "scoreLabel": "나쁨",
-      "specialDay": "",
-      "content": "재물과 관련한 약속, 차용, 보증 등은 크게 손해를 입는 날입니다. 주변의 부탁이나 권고에 흔들리지 마시기 바랍니다. 특히 재물을 운용하는 분들은 운용의 규모를 대폭 축소하시는 것이 현명합니다."
-    },
     {
       "date": "8월 23일 (일)",
       "score": "50",
@@ -66,6 +59,13 @@
       "scoreLabel": "좋지않음",
       "specialDay": "",
       "content": "뜻하는 바를 이루기는 다소 힘든 시기입니다. 자신이 주도가 되어 중요한 일을 결정하는 일은 없도록 하시기 바랍니다. 공연한 구설에 휘말리지 않도록 대인관계에도 주의해야 합니다."
+    },
+    {
+      "date": "8월 29일 (토)",
+      "score": "70",
+      "scoreLabel": "비교적좋음",
+      "specialDay": "역마",
+      "content": "책임이 주어지는 날입니다. 지위가 향상이 되겠으나 쉽지만은 않습니다. 얻은 만큼 나가야 할 것도 있으나 기분은 나쁘지 않을 것입니다."
     }
   ]
 }
