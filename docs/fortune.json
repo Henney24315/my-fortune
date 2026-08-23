@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 23일 (일)",
-    "percentage": "50%",
-    "color": "남색,  회색",
-    "colorNote": "",
-    "score": "50",
-    "scoreLabel": "비교적 좋지않음",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "8월 24일 (월)",
     "percentage": "90%",
     "color": "적색",
@@ -17,14 +8,16 @@
     "scoreLabel": "아주좋음",
     "specialDay": "도화/월덕/천덕"
   },
+  "tomorrow": {
+    "date": "8월 25일 (화)",
+    "percentage": "50%",
+    "color": "남색,  진곤색",
+    "colorNote": "",
+    "score": "대립·좋은쪽",
+    "scoreLabel": "대립·좋은쪽",
+    "specialDay": "양인"
+  },
   "next7Days": [
-    {
-      "date": "8월 23일 (일)",
-      "score": "50",
-      "scoreLabel": "비교적 좋지않음",
-      "specialDay": "",
-      "content": "자칫 가까운 사람과의 다툼 수로 인하여 스스로 외로움을 자초할 수 있습니다. 무리하여 일을 도모하면 위치와 재물에 손실이 올 것이나 자중하면 문제가 없습니다."
-    },
     {
       "date": "8월 24일 (월)",
       "score": "90",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적좋음",
       "specialDay": "역마",
       "content": "책임이 주어지는 날입니다. 지위가 향상이 되겠으나 쉽지만은 않습니다. 얻은 만큼 나가야 할 것도 있으나 기분은 나쁘지 않을 것입니다."
+    },
+    {
+      "date": "8월 30일 (일)",
+      "score": "80",
+      "scoreLabel": "좋음",
+      "specialDay": "천을",
+      "content": "먼저 타인이 나의 인품과 능력을 알아주니 가만히 있어도 나의 지위가 높아지는 시기입니다. 나의 판단과 안목이 현명한 날로 일이 대체적으로 순조롭게 진행되는 좋은 날입니다."
     }
   ]
 }
