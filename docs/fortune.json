@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 24일 (월)",
-    "percentage": "90%",
-    "color": "적색",
-    "colorNote": "",
-    "score": "90",
-    "scoreLabel": "아주좋음",
-    "specialDay": "도화/월덕/천덕"
-  },
-  "tomorrow": {
     "date": "8월 25일 (화)",
     "percentage": "50%",
     "color": "남색,  진곤색",
@@ -17,14 +8,16 @@
     "scoreLabel": "대립·좋은쪽",
     "specialDay": "양인"
   },
+  "tomorrow": {
+    "date": "8월 26일 (수)",
+    "percentage": "90%",
+    "color": "진회색,  검은색",
+    "colorNote": "",
+    "score": "90",
+    "scoreLabel": "아주좋음",
+    "specialDay": "천을"
+  },
   "next7Days": [
-    {
-      "date": "8월 24일 (월)",
-      "score": "90",
-      "scoreLabel": "아주좋음",
-      "specialDay": "도화/월덕/천덕",
-      "content": "주변의 가까운 사람의 권유로 뜻하지 않은 도움을 받을 수 있는 시기입니다. 일이 풀리지 않을 경우 지인 들에게 도움을 요청하시기 바랍니다. 좋은 해답을 얻을 수 있는 시기입니다."
-    },
     {
       "date": "8월 25일 (화)",
       "score": "대립·좋은쪽",
@@ -66,6 +59,13 @@
       "scoreLabel": "좋음",
       "specialDay": "천을",
       "content": "먼저 타인이 나의 인품과 능력을 알아주니 가만히 있어도 나의 지위가 높아지는 시기입니다. 나의 판단과 안목이 현명한 날로 일이 대체적으로 순조롭게 진행되는 좋은 날입니다."
+    },
+    {
+      "date": "8월 31일 (월)",
+      "score": "50",
+      "scoreLabel": "비교적 좋지않음",
+      "specialDay": "",
+      "content": "마무리에 신경을 써야 하는 날입니다. 평이한 흐름이지만 실수를 유도하는 기운이 존재합니다. 실수만 없으면 보통의 기운은 되는 날입니다."
     }
   ]
 }
