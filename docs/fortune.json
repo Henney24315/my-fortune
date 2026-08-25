@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 25일 (화)",
-    "percentage": "50%",
-    "color": "남색,  진곤색",
-    "colorNote": "",
-    "score": "대립·좋은쪽",
-    "scoreLabel": "대립·좋은쪽",
-    "specialDay": "양인"
-  },
-  "tomorrow": {
     "date": "8월 26일 (수)",
     "percentage": "90%",
     "color": "진회색,  검은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "아주좋음",
     "specialDay": "천을"
   },
+  "tomorrow": {
+    "date": "8월 27일 (목)",
+    "percentage": "90%",
+    "color": "초록색,  청색",
+    "colorNote": "",
+    "score": "90",
+    "scoreLabel": "아주좋음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "8월 25일 (화)",
-      "score": "대립·좋은쪽",
-      "scoreLabel": "대립·좋은쪽",
-      "specialDay": "양인",
-      "content": "운의 흐름과 기운은 최상이지만 운의 흐름이 극단으로 대립합니다. 좋은 기운과 나쁜 기운이 공존하는 날로 가장 좋은 날이 될 수도 혹은 반드시 피해야 하는 날이 될 수도 있습니다."
-    },
     {
       "date": "8월 26일 (수)",
       "score": "90",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적 좋지않음",
       "specialDay": "",
       "content": "마무리에 신경을 써야 하는 날입니다. 평이한 흐름이지만 실수를 유도하는 기운이 존재합니다. 실수만 없으면 보통의 기운은 되는 날입니다."
+    },
+    {
+      "date": "9월 1일 (화)",
+      "score": "40",
+      "scoreLabel": "좋지않음",
+      "specialDay": "",
+      "content": "진행 중이거나 일 적인 흐름에 차질이 생기고 해결하기가 다소 어려운 일들이 발생하는 시기입니다. 중요한 일의 추진은 시일을 다소 미루는 지혜가 필요할 때입니다."
     }
   ]
 }
