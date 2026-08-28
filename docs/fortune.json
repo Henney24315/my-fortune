@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 27일 (목)",
-    "percentage": "90%",
-    "color": "초록색,  청색",
-    "colorNote": "",
-    "score": "90",
-    "scoreLabel": "아주좋음",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "8월 28일 (금)",
     "percentage": "40%",
     "color": "분홍색,  노란색",
@@ -17,14 +8,16 @@
     "scoreLabel": "좋지않음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "8월 29일 (토)",
+    "percentage": "70%",
+    "color": "군청색,  회색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": "역마"
+  },
   "next7Days": [
-    {
-      "date": "8월 27일 (목)",
-      "score": "90",
-      "scoreLabel": "아주좋음",
-      "specialDay": "",
-      "content": "직장 동료나 친인척 등 지인들의 도움으로 인하여 막혔던 일들이 수월하게 풀려나가는 시기입니다. 특히 대인관계를 통해 파생되는 일들을 많이 하시기 바랍니다."
-    },
     {
       "date": "8월 28일 (금)",
       "score": "40",
@@ -66,6 +59,13 @@
       "scoreLabel": "좋지않음",
       "specialDay": "",
       "content": "자신의 의도에 반하여 약속한 부분을 어기는 일이 자주 발생합니다. 항상 계획에 차질이 있음을 미리 대비하시기 바랍니다. 특히 금전과 관련된 약속을 하신다면 지키기 어려움으로 기간을 멀리 두시기 바랍니다. 운용도 그리 좋지 않습니다."
+    },
+    {
+      "date": "9월 3일 (목)",
+      "score": "70",
+      "scoreLabel": "비교적좋음",
+      "specialDay": "월덕/천덕",
+      "content": "나를 돕는 기운이 있습니다. 비록 대가를 치르기는 하겠지만 원하는 바를 이룰 정도는 될 것입니다. 어려움도 있을 수 있지만 대체로 다행스런 날입니다."
     }
   ]
 }
