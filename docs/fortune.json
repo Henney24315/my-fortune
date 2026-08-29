@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 29일 (토)",
-    "percentage": "70%",
-    "color": "군청색,  회색",
-    "colorNote": "",
-    "score": "70",
-    "scoreLabel": "비교적좋음",
-    "specialDay": "역마"
-  },
-  "tomorrow": {
     "date": "8월 30일 (일)",
     "percentage": "80%",
     "color": "초록색,  남색",
@@ -17,14 +8,16 @@
     "scoreLabel": "좋음",
     "specialDay": "천을"
   },
+  "tomorrow": {
+    "date": "8월 31일 (월)",
+    "percentage": "50%",
+    "color": "파란색,  진회색",
+    "colorNote": "",
+    "score": "50",
+    "scoreLabel": "비교적 좋지않음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "8월 29일 (토)",
-      "score": "70",
-      "scoreLabel": "비교적좋음",
-      "specialDay": "역마",
-      "content": "책임이 주어지는 날입니다. 지위가 향상이 되겠으나 쉽지만은 않습니다. 얻은 만큼 나가야 할 것도 있으나 기분은 나쁘지 않을 것입니다."
-    },
     {
       "date": "8월 30일 (일)",
       "score": "80",
@@ -66,6 +59,13 @@
       "scoreLabel": "아주좋음",
       "specialDay": "",
       "content": "주변의 가까운 사람의 권유로 뜻하지 않은 도움을 받을 수 있는 시기입니다. 일이 풀리지 않을 경우 지인 들에게 도움을 요청하시기 바랍니다. 좋은 해답을 얻을 수 있는 시기입니다."
+    },
+    {
+      "date": "9월 5일 (토)",
+      "score": "70",
+      "scoreLabel": "비교적좋음",
+      "specialDay": "도화",
+      "content": "수익이 생겨도 지출할 곳이 함께 생기는 기운입니다. 하지만 즐거운 지출이거나 능력이 되는 지출이어서 곤란한 상황이 되지는 않습니다. 적당히 좋은 흐름이네요."
     }
   ]
 }
