@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 28일 (금)",
-    "percentage": "40%",
-    "color": "분홍색,  노란색",
-    "colorNote": "",
-    "score": "40",
-    "scoreLabel": "좋지않음",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "8월 29일 (토)",
     "percentage": "70%",
     "color": "군청색,  회색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적좋음",
     "specialDay": "역마"
   },
+  "tomorrow": {
+    "date": "8월 30일 (일)",
+    "percentage": "80%",
+    "color": "초록색,  남색",
+    "colorNote": "",
+    "score": "80",
+    "scoreLabel": "좋음",
+    "specialDay": "천을"
+  },
   "next7Days": [
-    {
-      "date": "8월 28일 (금)",
-      "score": "40",
-      "scoreLabel": "좋지않음",
-      "specialDay": "",
-      "content": "뜻하는 바를 이루기는 다소 힘든 시기입니다. 자신이 주도가 되어 중요한 일을 결정하는 일은 없도록 하시기 바랍니다. 공연한 구설에 휘말리지 않도록 대인관계에도 주의해야 합니다."
-    },
     {
       "date": "8월 29일 (토)",
       "score": "70",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적좋음",
       "specialDay": "월덕/천덕",
       "content": "나를 돕는 기운이 있습니다. 비록 대가를 치르기는 하겠지만 원하는 바를 이룰 정도는 될 것입니다. 어려움도 있을 수 있지만 대체로 다행스런 날입니다."
+    },
+    {
+      "date": "9월 4일 (금)",
+      "score": "90",
+      "scoreLabel": "아주좋음",
+      "specialDay": "",
+      "content": "주변의 가까운 사람의 권유로 뜻하지 않은 도움을 받을 수 있는 시기입니다. 일이 풀리지 않을 경우 지인 들에게 도움을 요청하시기 바랍니다. 좋은 해답을 얻을 수 있는 시기입니다."
     }
   ]
 }
