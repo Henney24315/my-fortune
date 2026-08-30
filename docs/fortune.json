@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "8월 30일 (일)",
-    "percentage": "80%",
-    "color": "초록색,  남색",
-    "colorNote": "",
-    "score": "80",
-    "scoreLabel": "좋음",
-    "specialDay": "천을"
-  },
-  "tomorrow": {
     "date": "8월 31일 (월)",
     "percentage": "50%",
     "color": "파란색,  진회색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적 좋지않음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "9월 1일 (화)",
+    "percentage": "40%",
+    "color": "적황색,  분홍색",
+    "colorNote": "",
+    "score": "40",
+    "scoreLabel": "좋지않음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "8월 30일 (일)",
-      "score": "80",
-      "scoreLabel": "좋음",
-      "specialDay": "천을",
-      "content": "먼저 타인이 나의 인품과 능력을 알아주니 가만히 있어도 나의 지위가 높아지는 시기입니다. 나의 판단과 안목이 현명한 날로 일이 대체적으로 순조롭게 진행되는 좋은 날입니다."
-    },
     {
       "date": "8월 31일 (월)",
       "score": "50",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적좋음",
       "specialDay": "도화",
       "content": "수익이 생겨도 지출할 곳이 함께 생기는 기운입니다. 하지만 즐거운 지출이거나 능력이 되는 지출이어서 곤란한 상황이 되지는 않습니다. 적당히 좋은 흐름이네요."
+    },
+    {
+      "date": "9월 6일 (일)",
+      "score": "최악",
+      "scoreLabel": "최악",
+      "specialDay": "양인",
+      "content": "의욕만을 믿고 먼저 말하고 행동하는 일이 없도록 하세요. 의욕과 기운은 넘치지만 결과가 분명하지 않습니다. 좋은 기운이기는 하지만 지나치게 강한 기운으로 오히려 큰 해가 될 수 있는 법입니다."
     }
   ]
 }
