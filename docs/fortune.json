@@ -1,37 +1,23 @@
 {
   "today": {
-    "date": "8월 31일 (월)",
-    "percentage": "50%",
-    "color": "파란색,  진회색",
-    "colorNote": "",
-    "score": "50",
-    "scoreLabel": "비교적 좋지않음",
-    "specialDay": ""
-  },
-  "tomorrow": {
-    "date": "9월 1일 (화)",
+    "date": "9월 2일 (수)",
     "percentage": "40%",
-    "color": "적황색,  분홍색",
+    "color": "흰색",
     "colorNote": "",
     "score": "40",
     "scoreLabel": "좋지않음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "9월 3일 (목)",
+    "percentage": "70%",
+    "color": "붉은색,  검은색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": "월덕/천덕"
+  },
   "next7Days": [
-    {
-      "date": "8월 31일 (월)",
-      "score": "50",
-      "scoreLabel": "비교적 좋지않음",
-      "specialDay": "",
-      "content": "마무리에 신경을 써야 하는 날입니다. 평이한 흐름이지만 실수를 유도하는 기운이 존재합니다. 실수만 없으면 보통의 기운은 되는 날입니다."
-    },
-    {
-      "date": "9월 1일 (화)",
-      "score": "40",
-      "scoreLabel": "좋지않음",
-      "specialDay": "",
-      "content": "진행 중이거나 일 적인 흐름에 차질이 생기고 해결하기가 다소 어려운 일들이 발생하는 시기입니다. 중요한 일의 추진은 시일을 다소 미루는 지혜가 필요할 때입니다."
-    },
     {
       "date": "9월 2일 (수)",
       "score": "40",
@@ -66,6 +52,20 @@
       "scoreLabel": "최악",
       "specialDay": "양인",
       "content": "의욕만을 믿고 먼저 말하고 행동하는 일이 없도록 하세요. 의욕과 기운은 넘치지만 결과가 분명하지 않습니다. 좋은 기운이기는 하지만 지나치게 강한 기운으로 오히려 큰 해가 될 수 있는 법입니다."
+    },
+    {
+      "date": "9월 7일 (월)",
+      "score": "70",
+      "scoreLabel": "비교적좋음",
+      "specialDay": "천을",
+      "content": "좋은 기운이 산재하지만 의심도 많이 가는 날이네요. 정서적으로 좋음과 나쁨이 교차하지만 흐름은 좋은 편에 해당하는 날입니다."
+    },
+    {
+      "date": "9월 8일 (화)",
+      "score": "70",
+      "scoreLabel": "비교적좋음",
+      "specialDay": "",
+      "content": "흐름에 무리는 없지만 기운이 다소 모자란 느낌이 드는 날입니다. 뭔가 부족한 듯 이루어지는 날이니 조금 모자라게 좋은 날입니다."
     }
   ]
 }
