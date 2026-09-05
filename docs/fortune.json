@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 5일 (토)",
-    "percentage": "70%",
-    "color": "곤색,  남색",
-    "colorNote": "",
-    "score": "70",
-    "scoreLabel": "비교적좋음",
-    "specialDay": "도화"
-  },
-  "tomorrow": {
     "date": "9월 6일 (일)",
     "percentage": "20%",
     "color": "초록색,  남색",
@@ -17,14 +8,16 @@
     "scoreLabel": "최악",
     "specialDay": "양인"
   },
+  "tomorrow": {
+    "date": "9월 7일 (월)",
+    "percentage": "70%",
+    "color": "파란색,  붉은색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": "천을"
+  },
   "next7Days": [
-    {
-      "date": "9월 5일 (토)",
-      "score": "70",
-      "scoreLabel": "비교적좋음",
-      "specialDay": "도화",
-      "content": "수익이 생겨도 지출할 곳이 함께 생기는 기운입니다. 하지만 즐거운 지출이거나 능력이 되는 지출이어서 곤란한 상황이 되지는 않습니다. 적당히 좋은 흐름이네요."
-    },
     {
       "date": "9월 6일 (일)",
       "score": "최악",
@@ -66,6 +59,13 @@
       "scoreLabel": "보통",
       "specialDay": "천을",
       "content": "지출에 대한 관리와 자신의 것을 빼앗기지 않도록 소중하게 관리해야 할 필요가 있는 날입니다. 기운 상으로는 크게 좋거나 나쁜 날은 아닙니다."
+    },
+    {
+      "date": "9월 12일 (토)",
+      "score": "70",
+      "scoreLabel": "비교적좋음",
+      "specialDay": "",
+      "content": "흐름에 무리는 없지만 기운이 다소 모자란 느낌이 드는 날입니다. 뭔가 부족한 듯 이루어지는 날이니 조금 모자라게 좋은 날입니다."
     }
   ]
 }
