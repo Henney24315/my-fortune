@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 6일 (일)",
-    "percentage": "20%",
-    "color": "초록색,  남색",
-    "colorNote": "",
-    "score": "최악",
-    "scoreLabel": "최악",
-    "specialDay": "양인"
-  },
-  "tomorrow": {
     "date": "9월 7일 (월)",
     "percentage": "70%",
     "color": "파란색,  붉은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적좋음",
     "specialDay": "천을"
   },
+  "tomorrow": {
+    "date": "9월 8일 (화)",
+    "percentage": "70%",
+    "color": "주황색,  흰색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "9월 6일 (일)",
-      "score": "최악",
-      "scoreLabel": "최악",
-      "specialDay": "양인",
-      "content": "의욕만을 믿고 먼저 말하고 행동하는 일이 없도록 하세요. 의욕과 기운은 넘치지만 결과가 분명하지 않습니다. 좋은 기운이기는 하지만 지나치게 강한 기운으로 오히려 큰 해가 될 수 있는 법입니다."
-    },
     {
       "date": "9월 7일 (월)",
       "score": "70",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적좋음",
       "specialDay": "",
       "content": "흐름에 무리는 없지만 기운이 다소 모자란 느낌이 드는 날입니다. 뭔가 부족한 듯 이루어지는 날이니 조금 모자라게 좋은 날입니다."
+    },
+    {
+      "date": "9월 13일 (일)",
+      "score": "80",
+      "scoreLabel": "좋음",
+      "specialDay": "월덕/천덕",
+      "content": "자신의 능력이 주변에 많이 알려지는 시기입니다. 나를 찾는 사람이 많아지고 나의 능력에 대한 대가가 많이 올라가는 시기이니 쉬게 되면 좋은 시기를 그만큼 낭비하는 일이 될 것입니다."
     }
   ]
 }
