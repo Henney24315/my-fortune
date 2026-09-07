@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 7일 (월)",
-    "percentage": "70%",
-    "color": "파란색,  붉은색",
-    "colorNote": "",
-    "score": "70",
-    "scoreLabel": "비교적좋음",
-    "specialDay": "천을"
-  },
-  "tomorrow": {
     "date": "9월 8일 (화)",
     "percentage": "70%",
     "color": "주황색,  흰색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적좋음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "9월 9일 (수)",
+    "percentage": "50%",
+    "color": "빨간색,  군청색",
+    "colorNote": "",
+    "score": "50",
+    "scoreLabel": "비교적 좋지않음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "9월 7일 (월)",
-      "score": "70",
-      "scoreLabel": "비교적좋음",
-      "specialDay": "천을",
-      "content": "좋은 기운이 산재하지만 의심도 많이 가는 날이네요. 정서적으로 좋음과 나쁨이 교차하지만 흐름은 좋은 편에 해당하는 날입니다."
-    },
     {
       "date": "9월 8일 (화)",
       "score": "70",
@@ -66,6 +59,13 @@
       "scoreLabel": "좋음",
       "specialDay": "월덕/천덕",
       "content": "자신의 능력이 주변에 많이 알려지는 시기입니다. 나를 찾는 사람이 많아지고 나의 능력에 대한 대가가 많이 올라가는 시기이니 쉬게 되면 좋은 시기를 그만큼 낭비하는 일이 될 것입니다."
+    },
+    {
+      "date": "9월 14일 (월)",
+      "score": "80",
+      "scoreLabel": "좋음",
+      "specialDay": "",
+      "content": "판단이 비교적 정확하고 사리가 밝아지는 시기이기 때문에 실수가 적고 뜻하는 바를 이룰 수 있는 시기입니다. 활용가치가 높은 시기이니 세월을 죽이는 일이 없도록 하시기 바랍니다."
     }
   ]
 }
