@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 10일 (목)",
-    "percentage": "80%",
-    "color": "자주색,  흰색",
-    "colorNote": "",
-    "score": "80",
-    "scoreLabel": "좋음",
-    "specialDay": "역마"
-  },
-  "tomorrow": {
     "date": "9월 11일 (금)",
     "percentage": "60%",
     "color": "분홍색,  노란색",
@@ -17,14 +8,16 @@
     "scoreLabel": "보통",
     "specialDay": "천을"
   },
+  "tomorrow": {
+    "date": "9월 12일 (토)",
+    "percentage": "70%",
+    "color": "주황색,  흰색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "9월 10일 (목)",
-      "score": "80",
-      "scoreLabel": "좋음",
-      "specialDay": "역마",
-      "content": "판단이 비교적 정확하고 사리가 밝아지는 시기이기 때문에 실수가 적고 뜻하는 바를 이룰 수 있는 시기입니다. 활용가치가 높은 시기이니 세월을 죽이는 일이 없도록 하시기 바랍니다."
-    },
     {
       "date": "9월 11일 (금)",
       "score": "60",
@@ -66,6 +59,13 @@
       "scoreLabel": "아주좋음",
       "specialDay": "",
       "content": "재물이 증가하고 주변에 신용과 신뢰가 많이 쌓이는 시기입니다. 자신의 역량에 대한 발휘가 대단히 좋은 시기이니 활용에 더욱 많은 신경을 써야 하는 날입니다."
+    },
+    {
+      "date": "9월 17일 (목)",
+      "score": "50",
+      "scoreLabel": "비교적 좋지않음",
+      "specialDay": "도화",
+      "content": "자칫 가까운 사람과의 다툼 수로 인하여 스스로 외로움을 자초할 수 있습니다. 무리하여 일을 도모하면 위치와 재물에 손실이 올 것이나 자중하면 문제가 없습니다."
     }
   ]
 }
