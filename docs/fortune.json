@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 11일 (금)",
-    "percentage": "60%",
-    "color": "분홍색,  노란색",
-    "colorNote": "",
-    "score": "60",
-    "scoreLabel": "보통",
-    "specialDay": "천을"
-  },
-  "tomorrow": {
     "date": "9월 12일 (토)",
     "percentage": "70%",
     "color": "주황색,  흰색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적좋음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "9월 13일 (일)",
+    "percentage": "80%",
+    "color": "곤색,  밝은 녹색",
+    "colorNote": "",
+    "score": "80",
+    "scoreLabel": "좋음",
+    "specialDay": "월덕/천덕"
+  },
   "next7Days": [
-    {
-      "date": "9월 11일 (금)",
-      "score": "60",
-      "scoreLabel": "보통",
-      "specialDay": "천을",
-      "content": "지출에 대한 관리와 자신의 것을 빼앗기지 않도록 소중하게 관리해야 할 필요가 있는 날입니다. 기운 상으로는 크게 좋거나 나쁜 날은 아닙니다."
-    },
     {
       "date": "9월 12일 (토)",
       "score": "70",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적 좋지않음",
       "specialDay": "도화",
       "content": "자칫 가까운 사람과의 다툼 수로 인하여 스스로 외로움을 자초할 수 있습니다. 무리하여 일을 도모하면 위치와 재물에 손실이 올 것이나 자중하면 문제가 없습니다."
+    },
+    {
+      "date": "9월 18일 (금)",
+      "score": "최악",
+      "scoreLabel": "최악",
+      "specialDay": "양인",
+      "content": "고집이 강해지는 날로 일의 흐름이 잘 풀린다고 해도 항상 마무리를 점검해야 합니다. 짜증 나는 일이 생겨도 절대 무리하지 않도록 조심하시기 바랍니다."
     }
   ]
 }
