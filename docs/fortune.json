@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 13일 (일)",
-    "percentage": "80%",
-    "color": "곤색,  밝은 녹색",
-    "colorNote": "",
-    "score": "80",
-    "scoreLabel": "좋음",
-    "specialDay": "월덕/천덕"
-  },
-  "tomorrow": {
     "date": "9월 14일 (월)",
     "percentage": "80%",
     "color": "자주색,  흰색",
@@ -17,14 +8,16 @@
     "scoreLabel": "좋음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "9월 15일 (화)",
+    "percentage": "60%",
+    "color": "검은색,  붉은색",
+    "colorNote": "",
+    "score": "60",
+    "scoreLabel": "보통",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "9월 13일 (일)",
-      "score": "80",
-      "scoreLabel": "좋음",
-      "specialDay": "월덕/천덕",
-      "content": "자신의 능력이 주변에 많이 알려지는 시기입니다. 나를 찾는 사람이 많아지고 나의 능력에 대한 대가가 많이 올라가는 시기이니 쉬게 되면 좋은 시기를 그만큼 낭비하는 일이 될 것입니다."
-    },
     {
       "date": "9월 14일 (월)",
       "score": "80",
@@ -66,6 +59,13 @@
       "scoreLabel": "아주좋음",
       "specialDay": "천을",
       "content": "재물을 운용한다면 재물의 유입과 지출이 많은 시기입니다. 다행히 좋은 시기이니 활용에 만전을 다 해야 합니다. 적지 않게 행운도 따르는 시기입니다."
+    },
+    {
+      "date": "9월 20일 (일)",
+      "score": "90",
+      "scoreLabel": "아주좋음",
+      "specialDay": "",
+      "content": "타인을 통하여 존경을 받고 주변이 나를 먼저 청하는 경우가 많을 것입니다. 자신을 알아주는 이가 많으니 매사가 순조로우며 평안한 하루가 될 것입니다."
     }
   ]
 }
