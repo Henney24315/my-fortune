@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 14일 (월)",
-    "percentage": "80%",
-    "color": "자주색,  흰색",
-    "colorNote": "",
-    "score": "80",
-    "scoreLabel": "좋음",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "9월 15일 (화)",
     "percentage": "60%",
     "color": "검은색,  붉은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "보통",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "9월 16일 (수)",
+    "percentage": "90%",
+    "color": "초록색,  청색",
+    "colorNote": "",
+    "score": "90",
+    "scoreLabel": "아주좋음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "9월 14일 (월)",
-      "score": "80",
-      "scoreLabel": "좋음",
-      "specialDay": "",
-      "content": "판단이 비교적 정확하고 사리가 밝아지는 시기이기 때문에 실수가 적고 뜻하는 바를 이룰 수 있는 시기입니다. 활용가치가 높은 시기이니 세월을 죽이는 일이 없도록 하시기 바랍니다."
-    },
     {
       "date": "9월 15일 (화)",
       "score": "60",
@@ -66,6 +59,13 @@
       "scoreLabel": "아주좋음",
       "specialDay": "",
       "content": "타인을 통하여 존경을 받고 주변이 나를 먼저 청하는 경우가 많을 것입니다. 자신을 알아주는 이가 많으니 매사가 순조로우며 평안한 하루가 될 것입니다."
+    },
+    {
+      "date": "9월 21일 (월)",
+      "score": "30",
+      "scoreLabel": "나쁨",
+      "specialDay": "",
+      "content": "오해와 불신 마찰이 많은 시기입니다. 자중을 특별히 요하는 시기로 특히 아주 가까운 사람과의 다툼은 반드시 피하시기 바랍니다. 불필요하게 구설에 오르내리는 경우도 있습니다."
     }
   ]
 }
