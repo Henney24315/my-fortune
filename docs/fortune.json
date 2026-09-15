@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 15일 (화)",
-    "percentage": "60%",
-    "color": "검은색,  붉은색",
-    "colorNote": "",
-    "score": "60",
-    "scoreLabel": "보통",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "9월 16일 (수)",
     "percentage": "90%",
     "color": "초록색,  청색",
@@ -17,14 +8,16 @@
     "scoreLabel": "아주좋음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "9월 17일 (목)",
+    "percentage": "50%",
+    "color": "남색,  회색",
+    "colorNote": "",
+    "score": "50",
+    "scoreLabel": "비교적 좋지않음",
+    "specialDay": "도화"
+  },
   "next7Days": [
-    {
-      "date": "9월 15일 (화)",
-      "score": "60",
-      "scoreLabel": "보통",
-      "specialDay": "",
-      "content": "다소 답답함이 있기는 하지만 일이 크게 안 좋아지지는 않습니다. 일 적인 부분에서 자신이 해결해야 할 일로 인하여 많은 고민이 생길 것입니다."
-    },
     {
       "date": "9월 16일 (수)",
       "score": "90",
@@ -66,6 +59,13 @@
       "scoreLabel": "나쁨",
       "specialDay": "",
       "content": "오해와 불신 마찰이 많은 시기입니다. 자중을 특별히 요하는 시기로 특히 아주 가까운 사람과의 다툼은 반드시 피하시기 바랍니다. 불필요하게 구설에 오르내리는 경우도 있습니다."
+    },
+    {
+      "date": "9월 22일 (화)",
+      "score": "60",
+      "scoreLabel": "보통",
+      "specialDay": "역마",
+      "content": "무료한 날입니다. 크게 좋거나 나쁜 기운이 없으니 모두 의지에 달려 있습니다. 평이한 흐름이니 주변의 기운에 오히려 좌우되는 날입니다."
     }
   ]
 }
