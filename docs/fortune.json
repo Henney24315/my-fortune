@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 16일 (수)",
-    "percentage": "90%",
-    "color": "초록색,  청색",
-    "colorNote": "",
-    "score": "90",
-    "scoreLabel": "아주좋음",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "9월 17일 (목)",
     "percentage": "50%",
     "color": "남색,  회색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적 좋지않음",
     "specialDay": "도화"
   },
+  "tomorrow": {
+    "date": "9월 18일 (금)",
+    "percentage": "20%",
+    "color": "진회색,  검은색",
+    "colorNote": "",
+    "score": "최악",
+    "scoreLabel": "최악",
+    "specialDay": "양인"
+  },
   "next7Days": [
-    {
-      "date": "9월 16일 (수)",
-      "score": "90",
-      "scoreLabel": "아주좋음",
-      "specialDay": "",
-      "content": "재물이 증가하고 주변에 신용과 신뢰가 많이 쌓이는 시기입니다. 자신의 역량에 대한 발휘가 대단히 좋은 시기이니 활용에 더욱 많은 신경을 써야 하는 날입니다."
-    },
     {
       "date": "9월 17일 (목)",
       "score": "50",
@@ -66,6 +59,13 @@
       "scoreLabel": "보통",
       "specialDay": "역마",
       "content": "무료한 날입니다. 크게 좋거나 나쁜 기운이 없으니 모두 의지에 달려 있습니다. 평이한 흐름이니 주변의 기운에 오히려 좌우되는 날입니다."
+    },
+    {
+      "date": "9월 23일 (수)",
+      "score": "90",
+      "scoreLabel": "아주좋음",
+      "specialDay": "월덕/천덕/천을",
+      "content": "재물을 운용한다면 재물의 유입과 지출이 많은 시기입니다. 다행히 좋은 시기이니 활용에 만전을 다 해야 합니다. 적지 않게 행운도 따르는 시기입니다."
     }
   ]
 }
