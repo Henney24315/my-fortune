@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 19일 (토)",
-    "percentage": "90%",
-    "color": "진곤색,  검은색",
-    "colorNote": "",
-    "score": "90",
-    "scoreLabel": "아주좋음",
-    "specialDay": "천을"
-  },
-  "tomorrow": {
     "date": "9월 20일 (일)",
     "percentage": "90%",
     "color": "진회색,  검은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "아주좋음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "9월 21일 (월)",
+    "percentage": "30%",
+    "color": "남색,  진곤색",
+    "colorNote": "",
+    "score": "30",
+    "scoreLabel": "나쁨",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "9월 19일 (토)",
-      "score": "90",
-      "scoreLabel": "아주좋음",
-      "specialDay": "천을",
-      "content": "재물을 운용한다면 재물의 유입과 지출이 많은 시기입니다. 다행히 좋은 시기이니 활용에 만전을 다 해야 합니다. 적지 않게 행운도 따르는 시기입니다."
-    },
     {
       "date": "9월 20일 (일)",
       "score": "90",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적좋음",
       "specialDay": "",
       "content": "좋은 기운이 산재하지만 의심도 많이 가는 날이네요. 정서적으로 좋음과 나쁨이 교차하지만 흐름은 좋은 편에 해당하는 날입니다."
+    },
+    {
+      "date": "9월 26일 (토)",
+      "score": "70",
+      "scoreLabel": "비교적좋음",
+      "specialDay": "",
+      "content": "흐름에 무리는 없지만 기운이 다소 모자란 느낌이 드는 날입니다. 뭔가 부족한 듯 이루어지는 날이니 조금 모자라게 좋은 날입니다."
     }
   ]
 }
