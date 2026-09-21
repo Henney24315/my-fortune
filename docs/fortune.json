@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 21일 (월)",
-    "percentage": "30%",
-    "color": "남색,  진곤색",
-    "colorNote": "",
-    "score": "30",
-    "scoreLabel": "나쁨",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "9월 22일 (화)",
     "percentage": "60%",
     "color": "분홍색,  밝은 녹색",
@@ -17,14 +8,16 @@
     "scoreLabel": "보통",
     "specialDay": "역마"
   },
+  "tomorrow": {
+    "date": "9월 23일 (수)",
+    "percentage": "90%",
+    "color": "진곤색,  검은색",
+    "colorNote": "",
+    "score": "90",
+    "scoreLabel": "아주좋음",
+    "specialDay": "월덕/천덕/천을"
+  },
   "next7Days": [
-    {
-      "date": "9월 21일 (월)",
-      "score": "30",
-      "scoreLabel": "나쁨",
-      "specialDay": "",
-      "content": "오해와 불신 마찰이 많은 시기입니다. 자중을 특별히 요하는 시기로 특히 아주 가까운 사람과의 다툼은 반드시 피하시기 바랍니다. 불필요하게 구설에 오르내리는 경우도 있습니다."
-    },
     {
       "date": "9월 22일 (화)",
       "score": "60",
@@ -66,6 +59,13 @@
       "scoreLabel": "좋지않음",
       "specialDay": "",
       "content": "자신의 위치가 다소 공격을 받는 일이 생길 것입니다. 나에게 도전하거나 나를 해 하려는 사람들이 주변에 있으니 경거망동 하지 말고 자중하는 것이 오늘의 지혜 입니다."
+    },
+    {
+      "date": "9월 28일 (월)",
+      "score": "70",
+      "scoreLabel": "비교적좋음",
+      "specialDay": "",
+      "content": "문제가 없는 날이 아니라 만회가 되는 날입니다. 어려움이 생기고 이를 극복하는 날이니 최상의 흐름은 아니지만 문제를 해결할 만한 기운은 충분한 날입니다."
     }
   ]
 }
