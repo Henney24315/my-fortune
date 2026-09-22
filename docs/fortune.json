@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 22일 (화)",
-    "percentage": "60%",
-    "color": "분홍색,  밝은 녹색",
-    "colorNote": "",
-    "score": "60",
-    "scoreLabel": "보통",
-    "specialDay": "역마"
-  },
-  "tomorrow": {
     "date": "9월 23일 (수)",
     "percentage": "90%",
     "color": "진곤색,  검은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "아주좋음",
     "specialDay": "월덕/천덕/천을"
   },
+  "tomorrow": {
+    "date": "9월 24일 (목)",
+    "percentage": "90%",
+    "color": "진회색,  검은색",
+    "colorNote": "",
+    "score": "90",
+    "scoreLabel": "아주좋음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "9월 22일 (화)",
-      "score": "60",
-      "scoreLabel": "보통",
-      "specialDay": "역마",
-      "content": "무료한 날입니다. 크게 좋거나 나쁜 기운이 없으니 모두 의지에 달려 있습니다. 평이한 흐름이니 주변의 기운에 오히려 좌우되는 날입니다."
-    },
     {
       "date": "9월 23일 (수)",
       "score": "90",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적좋음",
       "specialDay": "",
       "content": "문제가 없는 날이 아니라 만회가 되는 날입니다. 어려움이 생기고 이를 극복하는 날이니 최상의 흐름은 아니지만 문제를 해결할 만한 기운은 충분한 날입니다."
+    },
+    {
+      "date": "9월 29일 (화)",
+      "score": "60",
+      "scoreLabel": "보통",
+      "specialDay": "도화",
+      "content": "다소 답답함이 있기는 하지만 일이 크게 안 좋아지지는 않습니다. 일 적인 부분에서 자신이 해결해야 할 일로 인하여 많은 고민이 생길 것입니다."
     }
   ]
 }
