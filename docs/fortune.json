@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 23일 (수)",
-    "percentage": "90%",
-    "color": "진곤색,  검은색",
-    "colorNote": "",
-    "score": "90",
-    "scoreLabel": "아주좋음",
-    "specialDay": "월덕/천덕/천을"
-  },
-  "tomorrow": {
     "date": "9월 24일 (목)",
     "percentage": "90%",
     "color": "진회색,  검은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "아주좋음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "9월 25일 (금)",
+    "percentage": "70%",
+    "color": "파란색,  붉은색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "9월 23일 (수)",
-      "score": "90",
-      "scoreLabel": "아주좋음",
-      "specialDay": "월덕/천덕/천을",
-      "content": "재물을 운용한다면 재물의 유입과 지출이 많은 시기입니다. 다행히 좋은 시기이니 활용에 만전을 다 해야 합니다. 적지 않게 행운도 따르는 시기입니다."
-    },
     {
       "date": "9월 24일 (목)",
       "score": "90",
@@ -66,6 +59,13 @@
       "scoreLabel": "보통",
       "specialDay": "도화",
       "content": "다소 답답함이 있기는 하지만 일이 크게 안 좋아지지는 않습니다. 일 적인 부분에서 자신이 해결해야 할 일로 인하여 많은 고민이 생길 것입니다."
+    },
+    {
+      "date": "9월 30일 (수)",
+      "score": "최악",
+      "scoreLabel": "최악",
+      "specialDay": "양인",
+      "content": "쉽게 생각하고 속단하는 일이 없어야 하는 날이니 기운은 좋다 하여도 피해야 하는 날 중의 하루입니다. 일이 잘 풀릴수록 마무리를 끝까지 확인해야 합니다."
     }
   ]
 }
