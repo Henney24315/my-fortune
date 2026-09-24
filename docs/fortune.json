@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 24일 (목)",
-    "percentage": "90%",
-    "color": "진회색,  검은색",
-    "colorNote": "",
-    "score": "90",
-    "scoreLabel": "아주좋음",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "9월 25일 (금)",
     "percentage": "70%",
     "color": "파란색,  붉은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적좋음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "9월 26일 (토)",
+    "percentage": "70%",
+    "color": "주황색,  흰색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "9월 24일 (목)",
-      "score": "90",
-      "scoreLabel": "아주좋음",
-      "specialDay": "",
-      "content": "타인을 통하여 존경을 받고 주변이 나를 먼저 청하는 경우가 많을 것입니다. 자신을 알아주는 이가 많으니 매사가 순조로우며 평안한 하루가 될 것입니다."
-    },
     {
       "date": "9월 25일 (금)",
       "score": "70",
@@ -66,6 +59,13 @@
       "scoreLabel": "최악",
       "specialDay": "양인",
       "content": "쉽게 생각하고 속단하는 일이 없어야 하는 날이니 기운은 좋다 하여도 피해야 하는 날 중의 하루입니다. 일이 잘 풀릴수록 마무리를 끝까지 확인해야 합니다."
+    },
+    {
+      "date": "10월 1일 (목)",
+      "score": "70",
+      "scoreLabel": "비교적좋음",
+      "specialDay": "천을",
+      "content": "나를 돕는 기운이 있습니다. 비록 대가를 치르기는 하겠지만 원하는 바를 이룰 정도는 될 것입니다. 어려움도 있을 수 있지만 대체로 다행스런 날입니다."
     }
   ]
 }
