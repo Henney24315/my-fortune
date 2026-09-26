@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 26일 (토)",
-    "percentage": "70%",
-    "color": "주황색,  흰색",
-    "colorNote": "",
-    "score": "70",
-    "scoreLabel": "비교적좋음",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "9월 27일 (일)",
     "percentage": "40%",
     "color": "분홍색,  초록색",
@@ -17,14 +8,16 @@
     "scoreLabel": "좋지않음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "9월 28일 (월)",
+    "percentage": "70%",
+    "color": "흰색,  남색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "9월 26일 (토)",
-      "score": "70",
-      "scoreLabel": "비교적좋음",
-      "specialDay": "",
-      "content": "흐름에 무리는 없지만 기운이 다소 모자란 느낌이 드는 날입니다. 뭔가 부족한 듯 이루어지는 날이니 조금 모자라게 좋은 날입니다."
-    },
     {
       "date": "9월 27일 (일)",
       "score": "40",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적좋음",
       "specialDay": "",
       "content": "일처리가 잘 되고 능력이 돋보이는 시기입니다. 그러나 이를 질투하는 이도 있으니 신경이 써지네요. 좋은 기운 중에 조심해야 할 기운도 함께 있는 날입니다."
+    },
+    {
+      "date": "10월 3일 (토)",
+      "score": "70",
+      "scoreLabel": "비교적좋음",
+      "specialDay": "월덕/천덕",
+      "content": "수익이 생겨도 지출할 곳이 함께 생기는 기운입니다. 하지만 즐거운 지출이거나 능력이 되는 지출이어서 곤란한 상황이 되지는 않습니다. 적당히 좋은 흐름이네요."
     }
   ]
 }
