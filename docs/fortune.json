@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "9월 30일 (수)",
-    "percentage": "20%",
-    "color": "검은색,  밝은 녹색",
-    "colorNote": "",
-    "score": "최악",
-    "scoreLabel": "최악",
-    "specialDay": "양인"
-  },
-  "tomorrow": {
     "date": "10월 1일 (목)",
     "percentage": "70%",
     "color": "붉은색,  검은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적좋음",
     "specialDay": "천을"
   },
+  "tomorrow": {
+    "date": "10월 2일 (금)",
+    "percentage": "70%",
+    "color": "진회색,  녹색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "9월 30일 (수)",
-      "score": "최악",
-      "scoreLabel": "최악",
-      "specialDay": "양인",
-      "content": "쉽게 생각하고 속단하는 일이 없어야 하는 날이니 기운은 좋다 하여도 피해야 하는 날 중의 하루입니다. 일이 잘 풀릴수록 마무리를 끝까지 확인해야 합니다."
-    },
     {
       "date": "10월 1일 (목)",
       "score": "70",
@@ -66,6 +59,13 @@
       "scoreLabel": "아주좋음",
       "specialDay": "",
       "content": "주변의 가까운 사람의 권유로 뜻하지 않은 도움을 받을 수 있는 시기입니다. 일이 풀리지 않을 경우 지인 들에게 도움을 요청하시기 바랍니다. 좋은 해답을 얻을 수 있는 시기입니다."
+    },
+    {
+      "date": "10월 7일 (수)",
+      "score": "50",
+      "scoreLabel": "비교적 좋지않음",
+      "specialDay": "",
+      "content": "지출이 빈번하게 생기는 시기이니 들어오고 나감이 쉽게 제어가 되지 않습니다. 수익보다는 지출이 다소 많은 날이므로 지출의 관리에 더욱 신경을 쓰시기 바랍니다."
     }
   ]
 }
