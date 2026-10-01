@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "10월 1일 (목)",
-    "percentage": "70%",
-    "color": "붉은색,  검은색",
-    "colorNote": "",
-    "score": "70",
-    "scoreLabel": "비교적좋음",
-    "specialDay": "천을"
-  },
-  "tomorrow": {
     "date": "10월 2일 (금)",
     "percentage": "70%",
     "color": "진회색,  녹색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적좋음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "10월 3일 (토)",
+    "percentage": "70%",
+    "color": "곤색,  남색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": "월덕/천덕"
+  },
   "next7Days": [
-    {
-      "date": "10월 1일 (목)",
-      "score": "70",
-      "scoreLabel": "비교적좋음",
-      "specialDay": "천을",
-      "content": "나를 돕는 기운이 있습니다. 비록 대가를 치르기는 하겠지만 원하는 바를 이룰 정도는 될 것입니다. 어려움도 있을 수 있지만 대체로 다행스런 날입니다."
-    },
     {
       "date": "10월 2일 (금)",
       "score": "70",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적 좋지않음",
       "specialDay": "",
       "content": "지출이 빈번하게 생기는 시기이니 들어오고 나감이 쉽게 제어가 되지 않습니다. 수익보다는 지출이 다소 많은 날이므로 지출의 관리에 더욱 신경을 쓰시기 바랍니다."
+    },
+    {
+      "date": "10월 8일 (목)",
+      "score": "30",
+      "scoreLabel": "나쁨",
+      "specialDay": "",
+      "content": "매사가 자신의 뜻대로만 되지는 않습니다. 문서, 금전, 책임소재와 같은 분야로 인하여 다툼이 발생할 수 있으니 절대로 나서거나 경거망동 해서는 안 되는 시기입니다. 좋지 않은 날이므로 최대한 자중하시기 바랍니다."
     }
   ]
 }
