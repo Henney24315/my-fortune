@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "10월 2일 (금)",
-    "percentage": "70%",
-    "color": "진회색,  녹색",
-    "colorNote": "",
-    "score": "70",
-    "scoreLabel": "비교적좋음",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "10월 3일 (토)",
     "percentage": "70%",
     "color": "곤색,  남색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적좋음",
     "specialDay": "월덕/천덕"
   },
+  "tomorrow": {
+    "date": "10월 4일 (일)",
+    "percentage": "90%",
+    "color": "진회색,  검은색",
+    "colorNote": "",
+    "score": "90",
+    "scoreLabel": "아주좋음",
+    "specialDay": "역마"
+  },
   "next7Days": [
-    {
-      "date": "10월 2일 (금)",
-      "score": "70",
-      "scoreLabel": "비교적좋음",
-      "specialDay": "",
-      "content": "일처리가 잘 되고 능력이 돋보이는 시기입니다. 그러나 이를 질투하는 이도 있으니 신경이 써지네요. 좋은 기운 중에 조심해야 할 기운도 함께 있는 날입니다."
-    },
     {
       "date": "10월 3일 (토)",
       "score": "70",
@@ -66,6 +59,13 @@
       "scoreLabel": "나쁨",
       "specialDay": "",
       "content": "매사가 자신의 뜻대로만 되지는 않습니다. 문서, 금전, 책임소재와 같은 분야로 인하여 다툼이 발생할 수 있으니 절대로 나서거나 경거망동 해서는 안 되는 시기입니다. 좋지 않은 날이므로 최대한 자중하시기 바랍니다."
+    },
+    {
+      "date": "10월 9일 (금)",
+      "score": "30",
+      "scoreLabel": "나쁨",
+      "specialDay": "",
+      "content": "오해와 불신 마찰이 많은 시기입니다. 자중을 특별히 요하는 시기로 특히 아주 가까운 사람과의 다툼은 반드시 피하시기 바랍니다. 불필요하게 구설에 오르내리는 경우도 있습니다."
     }
   ]
 }
