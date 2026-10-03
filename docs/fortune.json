@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "10월 3일 (토)",
-    "percentage": "70%",
-    "color": "곤색,  남색",
-    "colorNote": "",
-    "score": "70",
-    "scoreLabel": "비교적좋음",
-    "specialDay": "월덕/천덕"
-  },
-  "tomorrow": {
     "date": "10월 4일 (일)",
     "percentage": "90%",
     "color": "진회색,  검은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "아주좋음",
     "specialDay": "역마"
   },
+  "tomorrow": {
+    "date": "10월 5일 (월)",
+    "percentage": "80%",
+    "color": "남색,  진분홍색",
+    "colorNote": "",
+    "score": "80",
+    "scoreLabel": "좋음",
+    "specialDay": "천을"
+  },
   "next7Days": [
-    {
-      "date": "10월 3일 (토)",
-      "score": "70",
-      "scoreLabel": "비교적좋음",
-      "specialDay": "월덕/천덕",
-      "content": "수익이 생겨도 지출할 곳이 함께 생기는 기운입니다. 하지만 즐거운 지출이거나 능력이 되는 지출이어서 곤란한 상황이 되지는 않습니다. 적당히 좋은 흐름이네요."
-    },
     {
       "date": "10월 4일 (일)",
       "score": "90",
@@ -66,6 +59,13 @@
       "scoreLabel": "나쁨",
       "specialDay": "",
       "content": "오해와 불신 마찰이 많은 시기입니다. 자중을 특별히 요하는 시기로 특히 아주 가까운 사람과의 다툼은 반드시 피하시기 바랍니다. 불필요하게 구설에 오르내리는 경우도 있습니다."
+    },
+    {
+      "date": "10월 10일 (토)",
+      "score": "50",
+      "scoreLabel": "비교적 좋지않음",
+      "specialDay": "",
+      "content": "계획에 다소 차질이 생기며 자신의 실수로 인한 지출이 있는 시기입니다. 큰 일을 바라지 말고 차분히 일을 풀어나가야 할 때입니다. 무리하거나 공격적인 일의 추진은 아직 시기가 아닙니다."
     }
   ]
 }
