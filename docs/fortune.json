@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "10월 4일 (일)",
-    "percentage": "90%",
-    "color": "진회색,  검은색",
-    "colorNote": "",
-    "score": "90",
-    "scoreLabel": "아주좋음",
-    "specialDay": "역마"
-  },
-  "tomorrow": {
     "date": "10월 5일 (월)",
     "percentage": "80%",
     "color": "남색,  진분홍색",
@@ -17,14 +8,16 @@
     "scoreLabel": "좋음",
     "specialDay": "천을"
   },
+  "tomorrow": {
+    "date": "10월 6일 (화)",
+    "percentage": "90%",
+    "color": "적색",
+    "colorNote": "",
+    "score": "90",
+    "scoreLabel": "아주좋음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "10월 4일 (일)",
-      "score": "90",
-      "scoreLabel": "아주좋음",
-      "specialDay": "역마",
-      "content": "타인을 통하여 존경을 받고 주변이 나를 먼저 청하는 경우가 많을 것입니다. 자신을 알아주는 이가 많으니 매사가 순조로우며 평안한 하루가 될 것입니다."
-    },
     {
       "date": "10월 5일 (월)",
       "score": "80",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적 좋지않음",
       "specialDay": "",
       "content": "계획에 다소 차질이 생기며 자신의 실수로 인한 지출이 있는 시기입니다. 큰 일을 바라지 말고 차분히 일을 풀어나가야 할 때입니다. 무리하거나 공격적인 일의 추진은 아직 시기가 아닙니다."
+    },
+    {
+      "date": "10월 11일 (일)",
+      "score": "40",
+      "scoreLabel": "좋지않음",
+      "specialDay": "도화",
+      "content": "자신의 위치가 다소 공격을 받는 일이 생길 것입니다. 나에게 도전하거나 나를 해 하려는 사람들이 주변에 있으니 경거망동 하지 말고 자중하는 것이 오늘의 지혜 입니다."
     }
   ]
 }
