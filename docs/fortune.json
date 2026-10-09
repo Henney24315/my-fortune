@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "10월 9일 (금)",
-    "percentage": "30%",
-    "color": "남색,  진곤색",
-    "colorNote": "",
-    "score": "30",
-    "scoreLabel": "나쁨",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "10월 10일 (토)",
     "percentage": "50%",
     "color": "하늘색,  보라색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적 좋지않음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "10월 11일 (일)",
+    "percentage": "40%",
+    "color": "분홍색,  초록색",
+    "colorNote": "",
+    "score": "40",
+    "scoreLabel": "좋지않음",
+    "specialDay": "도화"
+  },
   "next7Days": [
-    {
-      "date": "10월 9일 (금)",
-      "score": "30",
-      "scoreLabel": "나쁨",
-      "specialDay": "",
-      "content": "오해와 불신 마찰이 많은 시기입니다. 자중을 특별히 요하는 시기로 특히 아주 가까운 사람과의 다툼은 반드시 피하시기 바랍니다. 불필요하게 구설에 오르내리는 경우도 있습니다."
-    },
     {
       "date": "10월 10일 (토)",
       "score": "50",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적 좋지않음",
       "specialDay": "",
       "content": "자칫 가까운 사람과의 다툼 수로 인하여 스스로 외로움을 자초할 수 있습니다. 무리하여 일을 도모하면 위치와 재물에 손실이 올 것이나 자중하면 문제가 없습니다."
+    },
+    {
+      "date": "10월 16일 (금)",
+      "score": "70",
+      "scoreLabel": "비교적좋음",
+      "specialDay": "역마",
+      "content": "일처리가 잘 되고 능력이 돋보이는 시기입니다. 그러나 이를 질투하는 이도 있으니 신경이 써지네요. 좋은 기운 중에 조심해야 할 기운도 함께 있는 날입니다."
     }
   ]
 }
