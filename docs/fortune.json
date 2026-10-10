@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "10월 10일 (토)",
-    "percentage": "50%",
-    "color": "하늘색,  보라색",
-    "colorNote": "",
-    "score": "50",
-    "scoreLabel": "비교적 좋지않음",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "10월 11일 (일)",
     "percentage": "40%",
     "color": "분홍색,  초록색",
@@ -17,14 +8,16 @@
     "scoreLabel": "좋지않음",
     "specialDay": "도화"
   },
+  "tomorrow": {
+    "date": "10월 12일 (월)",
+    "percentage": "20%",
+    "color": "파란색,  초록색",
+    "colorNote": "",
+    "score": "최악",
+    "scoreLabel": "최악",
+    "specialDay": "양인"
+  },
   "next7Days": [
-    {
-      "date": "10월 10일 (토)",
-      "score": "50",
-      "scoreLabel": "비교적 좋지않음",
-      "specialDay": "",
-      "content": "계획에 다소 차질이 생기며 자신의 실수로 인한 지출이 있는 시기입니다. 큰 일을 바라지 말고 차분히 일을 풀어나가야 할 때입니다. 무리하거나 공격적인 일의 추진은 아직 시기가 아닙니다."
-    },
     {
       "date": "10월 11일 (일)",
       "score": "40",
@@ -66,6 +59,13 @@
       "scoreLabel": "비교적좋음",
       "specialDay": "역마",
       "content": "일처리가 잘 되고 능력이 돋보이는 시기입니다. 그러나 이를 질투하는 이도 있으니 신경이 써지네요. 좋은 기운 중에 조심해야 할 기운도 함께 있는 날입니다."
+    },
+    {
+      "date": "10월 17일 (토)",
+      "score": "60",
+      "scoreLabel": "보통",
+      "specialDay": "천을",
+      "content": "다소 답답함이 있기는 하지만 일이 크게 안 좋아지지는 않습니다. 일 적인 부분에서 자신이 해결해야 할 일로 인하여 많은 고민이 생길 것입니다."
     }
   ]
 }
