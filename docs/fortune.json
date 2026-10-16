@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "10월 16일 (금)",
-    "percentage": "70%",
-    "color": "진회색,  녹색",
-    "colorNote": "",
-    "score": "70",
-    "scoreLabel": "비교적좋음",
-    "specialDay": "역마"
-  },
-  "tomorrow": {
     "date": "10월 17일 (토)",
     "percentage": "60%",
     "color": "검은색,  붉은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "보통",
     "specialDay": "천을"
   },
+  "tomorrow": {
+    "date": "10월 18일 (일)",
+    "percentage": "30%",
+    "color": "남색,  진곤색",
+    "colorNote": "",
+    "score": "30",
+    "scoreLabel": "나쁨",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "10월 16일 (금)",
-      "score": "70",
-      "scoreLabel": "비교적좋음",
-      "specialDay": "역마",
-      "content": "일처리가 잘 되고 능력이 돋보이는 시기입니다. 그러나 이를 질투하는 이도 있으니 신경이 써지네요. 좋은 기운 중에 조심해야 할 기운도 함께 있는 날입니다."
-    },
     {
       "date": "10월 17일 (토)",
       "score": "60",
@@ -66,6 +59,13 @@
       "scoreLabel": "좋지않음",
       "specialDay": "",
       "content": "책임질 일은 절대로 해서는 안 됩니다. 결과와 관계없이 문책이 따르는 시기로 자신이 맡아서 한 일은 결과가 썩 좋지 않은 시기입니다. 자중할 필요가 있으며 문서상의 일은 절대로 삼가시기 바랍니다."
+    },
+    {
+      "date": "10월 23일 (금)",
+      "score": "80",
+      "scoreLabel": "좋음",
+      "specialDay": "도화/월덕/천덕",
+      "content": "주변 사람들 과의 관계가 돈독해지며 좋은 인연을 만들기도 합니다. 일 적인 흐름이 좋아지는 날이니 활용에 만전을 기하시기 바랍니다."
     }
   ]
 }
