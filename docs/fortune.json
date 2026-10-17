@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "10월 17일 (토)",
-    "percentage": "60%",
-    "color": "검은색,  붉은색",
-    "colorNote": "",
-    "score": "60",
-    "scoreLabel": "보통",
-    "specialDay": "천을"
-  },
-  "tomorrow": {
     "date": "10월 18일 (일)",
     "percentage": "30%",
     "color": "남색,  진곤색",
@@ -17,14 +8,16 @@
     "scoreLabel": "나쁨",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "10월 19일 (월)",
+    "percentage": "50%",
+    "color": "남색,  회색",
+    "colorNote": "",
+    "score": "50",
+    "scoreLabel": "비교적 좋지않음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "10월 17일 (토)",
-      "score": "60",
-      "scoreLabel": "보통",
-      "specialDay": "천을",
-      "content": "다소 답답함이 있기는 하지만 일이 크게 안 좋아지지는 않습니다. 일 적인 부분에서 자신이 해결해야 할 일로 인하여 많은 고민이 생길 것입니다."
-    },
     {
       "date": "10월 18일 (일)",
       "score": "30",
@@ -66,6 +59,13 @@
       "scoreLabel": "좋음",
       "specialDay": "도화/월덕/천덕",
       "content": "주변 사람들 과의 관계가 돈독해지며 좋은 인연을 만들기도 합니다. 일 적인 흐름이 좋아지는 날이니 활용에 만전을 기하시기 바랍니다."
+    },
+    {
+      "date": "10월 24일 (토)",
+      "score": "대립·나쁜쪽",
+      "scoreLabel": "대립·나쁜쪽",
+      "specialDay": "양인",
+      "content": "일은 잘 되는 듯 풀리지만 잔 실수로 인해 짜증도 많이 날 것입니다. 좋은 듯하지만 실지로 어려운 날이니 관리를 잘해야 합니다."
     }
   ]
 }
