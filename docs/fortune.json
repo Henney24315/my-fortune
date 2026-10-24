@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "10월 24일 (토)",
-    "percentage": "40%",
-    "color": "녹색,  흰색",
-    "colorNote": "",
-    "score": "대립·나쁜쪽",
-    "scoreLabel": "대립·나쁜쪽",
-    "specialDay": "양인"
-  },
-  "tomorrow": {
     "date": "10월 25일 (일)",
     "percentage": "90%",
     "color": "적색",
@@ -17,14 +8,16 @@
     "scoreLabel": "아주좋음",
     "specialDay": "천을"
   },
+  "tomorrow": {
+    "date": "10월 26일 (월)",
+    "percentage": "90%",
+    "color": "진곤색,  검은색",
+    "colorNote": "",
+    "score": "90",
+    "scoreLabel": "아주좋음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "10월 24일 (토)",
-      "score": "대립·나쁜쪽",
-      "scoreLabel": "대립·나쁜쪽",
-      "specialDay": "양인",
-      "content": "일은 잘 되는 듯 풀리지만 잔 실수로 인해 짜증도 많이 날 것입니다. 좋은 듯하지만 실지로 어려운 날이니 관리를 잘해야 합니다."
-    },
     {
       "date": "10월 25일 (일)",
       "score": "90",
@@ -66,6 +59,13 @@
       "scoreLabel": "나쁨",
       "specialDay": "",
       "content": "자신의 뜻에 반하여 주변에 적들이 생기는 시기입니다. 다른 사람과의 관계를 항상 조심하시고 주의하시기 바랍니다. 판단이 많이 흐려지는 시기이므로 신중에 신중을 거듭해야 하는 시기입니다."
+    },
+    {
+      "date": "10월 31일 (토)",
+      "score": "40",
+      "scoreLabel": "좋지않음",
+      "specialDay": "",
+      "content": "진행 중이거나 일 적인 흐름에 차질이 생기고 해결하기가 다소 어려운 일들이 발생하는 시기입니다. 중요한 일의 추진은 시일을 다소 미루는 지혜가 필요할 때입니다."
     }
   ]
 }
