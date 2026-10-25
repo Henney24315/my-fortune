@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "10월 25일 (일)",
-    "percentage": "90%",
-    "color": "적색",
-    "colorNote": "",
-    "score": "90",
-    "scoreLabel": "아주좋음",
-    "specialDay": "천을"
-  },
-  "tomorrow": {
     "date": "10월 26일 (월)",
     "percentage": "90%",
     "color": "진곤색,  검은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "아주좋음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "10월 27일 (화)",
+    "percentage": "30%",
+    "color": "진회색,  남색",
+    "colorNote": "",
+    "score": "30",
+    "scoreLabel": "나쁨",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "10월 25일 (일)",
-      "score": "90",
-      "scoreLabel": "아주좋음",
-      "specialDay": "천을",
-      "content": "자신의 지위와 위치가 분명해지는 시기입니다. 판단력도 뛰어나며 주변이 자신의 능력을 저절로 알아주는 때이니 활용에 더욱 만전을 기해야 합니다. 시험이나 승진에도 좋은 결과가 예상이 되는 시기입니다."
-    },
     {
       "date": "10월 26일 (월)",
       "score": "90",
@@ -66,6 +59,13 @@
       "scoreLabel": "좋지않음",
       "specialDay": "",
       "content": "진행 중이거나 일 적인 흐름에 차질이 생기고 해결하기가 다소 어려운 일들이 발생하는 시기입니다. 중요한 일의 추진은 시일을 다소 미루는 지혜가 필요할 때입니다."
+    },
+    {
+      "date": "11월 1일 (일)",
+      "score": "30",
+      "scoreLabel": "나쁨",
+      "specialDay": "",
+      "content": "오늘 나가는 재물은 돌아오기 힘든 재물이 됩니다. 재물과 관련된 문서나 보증 등에 절대로 관여하지 마시기 바랍니다. 자신에게 들어오는 일 적인 제안이 있다면 더욱 신중하게 검토하시기 바랍니다."
     }
   ]
 }
