@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "10월 27일 (화)",
-    "percentage": "30%",
-    "color": "진회색,  남색",
-    "colorNote": "",
-    "score": "30",
-    "scoreLabel": "나쁨",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "10월 28일 (수)",
     "percentage": "60%",
     "color": "분홍색,  노란색",
@@ -17,14 +8,16 @@
     "scoreLabel": "보통",
     "specialDay": "역마"
   },
+  "tomorrow": {
+    "date": "10월 29일 (목)",
+    "percentage": "50%",
+    "color": "빨간색,  군청색",
+    "colorNote": "",
+    "score": "50",
+    "scoreLabel": "비교적 좋지않음",
+    "specialDay": "천을"
+  },
   "next7Days": [
-    {
-      "date": "10월 27일 (화)",
-      "score": "30",
-      "scoreLabel": "나쁨",
-      "specialDay": "",
-      "content": "쉬어 가는 것이 오히려 큰 지혜가 되는 날입니다. 계획의 실현에 차질이 생길 것이니 미리 대비하시기 바라며 중요한 일에 대한 결정도 다소 미루시는 것이 좋습니다."
-    },
     {
       "date": "10월 28일 (수)",
       "score": "60",
@@ -66,6 +59,13 @@
       "scoreLabel": "보통",
       "specialDay": "월덕/천덕",
       "content": "억지로 나를 알리려 하면 오히려 역효과가 나는 시기입니다. 억지로 일을 풀려고 노력하지 말고 차분히 자신을 강화시키는 데 주력하면 문제가 없는 운세입니다."
+    },
+    {
+      "date": "11월 3일 (화)",
+      "score": "80",
+      "scoreLabel": "좋음",
+      "specialDay": "",
+      "content": "주변 사람들 과의 관계가 돈독해지며 좋은 인연을 만들기도 합니다. 일 적인 흐름이 좋아지는 날이니 활용에 만전을 기하시기 바랍니다."
     }
   ]
 }
