@@ -1,30 +1,23 @@
 {
   "today": {
-    "date": "10월 28일 (수)",
-    "percentage": "60%",
-    "color": "분홍색,  노란색",
-    "colorNote": "",
-    "score": "60",
-    "scoreLabel": "보통",
-    "specialDay": "역마"
-  },
-  "tomorrow": {
     "date": "10월 29일 (목)",
-    "percentage": "50%",
-    "color": "빨간색,  군청색",
+    "percentage": "%",
+    "color": "",
     "colorNote": "",
     "score": "50",
     "scoreLabel": "비교적 좋지않음",
     "specialDay": "천을"
   },
+  "tomorrow": {
+    "date": "10월 30일 (금)",
+    "percentage": "%",
+    "color": "",
+    "colorNote": "",
+    "score": "30",
+    "scoreLabel": "나쁨",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "10월 28일 (수)",
-      "score": "60",
-      "scoreLabel": "보통",
-      "specialDay": "역마",
-      "content": "타인의 일에 관여하지 마세요. 나 만의 일로 문제가 생기지는 않습니다. 무엇인가에 관여하거나 얻으려 하면 문제가 생길 수 있습니다. 평이한 흐름이니 평소 이상의 것을 얻기에는 부족합니다."
-    },
     {
       "date": "10월 29일 (목)",
       "score": "50",
@@ -66,6 +59,13 @@
       "scoreLabel": "좋음",
       "specialDay": "",
       "content": "주변 사람들 과의 관계가 돈독해지며 좋은 인연을 만들기도 합니다. 일 적인 흐름이 좋아지는 날이니 활용에 만전을 기하시기 바랍니다."
+    },
+    {
+      "date": "11월 4일 (수)",
+      "score": "60",
+      "scoreLabel": "보통",
+      "specialDay": "도화",
+      "content": "무료한 날입니다. 크게 좋거나 나쁜 기운이 없으니 모두 의지에 달려 있습니다. 평이한 흐름이니 주변의 기운에 오히려 좌우되는 날입니다."
     }
   ]
 }
