@@ -1,30 +1,23 @@
 {
   "today": {
-    "date": "10월 29일 (목)",
-    "percentage": "%",
-    "color": "",
-    "colorNote": "",
-    "score": "50",
-    "scoreLabel": "비교적 좋지않음",
-    "specialDay": "천을"
-  },
-  "tomorrow": {
     "date": "10월 30일 (금)",
-    "percentage": "%",
-    "color": "",
+    "percentage": "30%",
+    "color": "초록색,  하늘색",
     "colorNote": "",
     "score": "30",
     "scoreLabel": "나쁨",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "10월 31일 (토)",
+    "percentage": "40%",
+    "color": "적황색,  분홍색",
+    "colorNote": "",
+    "score": "40",
+    "scoreLabel": "좋지않음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "10월 29일 (목)",
-      "score": "50",
-      "scoreLabel": "비교적 좋지않음",
-      "specialDay": "천을",
-      "content": "자신의 위치를 믿고 일을 섣불리 벌인다면 오히려 낭패가 됩니다. 자중하고 기다리면 자신에게 맞는 역할이 주어질 것입니다. 먼저 앞서는 시기가 아니라 기다리는 시기임을 잊지 마시기 바랍니다."
-    },
     {
       "date": "10월 30일 (금)",
       "score": "30",
@@ -66,6 +59,13 @@
       "scoreLabel": "보통",
       "specialDay": "도화",
       "content": "무료한 날입니다. 크게 좋거나 나쁜 기운이 없으니 모두 의지에 달려 있습니다. 평이한 흐름이니 주변의 기운에 오히려 좌우되는 날입니다."
+    },
+    {
+      "date": "11월 5일 (목)",
+      "score": "최악",
+      "scoreLabel": "최악",
+      "specialDay": "양인",
+      "content": "고집이 강해지는 날로 일의 흐름이 잘 풀린다고 해도 항상 마무리를 점검해야 합니다. 짜증 나는 일이 생겨도 절대 무리하지 않도록 조심하시기 바랍니다."
     }
   ]
 }
