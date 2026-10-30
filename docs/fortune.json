@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "10월 30일 (금)",
-    "percentage": "30%",
-    "color": "초록색,  하늘색",
-    "colorNote": "",
-    "score": "30",
-    "scoreLabel": "나쁨",
-    "specialDay": ""
-  },
-  "tomorrow": {
     "date": "10월 31일 (토)",
     "percentage": "40%",
     "color": "적황색,  분홍색",
@@ -17,14 +8,16 @@
     "scoreLabel": "좋지않음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "11월 1일 (일)",
+    "percentage": "30%",
+    "color": "초록색,  하늘색",
+    "colorNote": "",
+    "score": "30",
+    "scoreLabel": "나쁨",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "10월 30일 (금)",
-      "score": "30",
-      "scoreLabel": "나쁨",
-      "specialDay": "",
-      "content": "자신의 뜻에 반하여 주변에 적들이 생기는 시기입니다. 다른 사람과의 관계를 항상 조심하시고 주의하시기 바랍니다. 판단이 많이 흐려지는 시기이므로 신중에 신중을 거듭해야 하는 시기입니다."
-    },
     {
       "date": "10월 31일 (토)",
       "score": "40",
@@ -66,6 +59,13 @@
       "scoreLabel": "최악",
       "specialDay": "양인",
       "content": "고집이 강해지는 날로 일의 흐름이 잘 풀린다고 해도 항상 마무리를 점검해야 합니다. 짜증 나는 일이 생겨도 절대 무리하지 않도록 조심하시기 바랍니다."
+    },
+    {
+      "date": "11월 6일 (금)",
+      "score": "70",
+      "scoreLabel": "비교적좋음",
+      "specialDay": "천을",
+      "content": "문제가 없는 날이 아니라 만회가 되는 날입니다. 어려움이 생기고 이를 극복하는 날이니 최상의 흐름은 아니지만 문제를 해결할 만한 기운은 충분한 날입니다."
     }
   ]
 }
