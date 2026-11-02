@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "11월 2일 (월)",
-    "percentage": "60%",
-    "color": "검은색,  붉은색",
-    "colorNote": "",
-    "score": "60",
-    "scoreLabel": "보통",
-    "specialDay": "월덕/천덕"
-  },
-  "tomorrow": {
     "date": "11월 3일 (화)",
     "percentage": "80%",
     "color": "검은색,  적색",
@@ -17,14 +8,16 @@
     "scoreLabel": "좋음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "11월 4일 (수)",
+    "percentage": "60%",
+    "color": "분홍색,  밝은 녹색",
+    "colorNote": "",
+    "score": "60",
+    "scoreLabel": "보통",
+    "specialDay": "도화"
+  },
   "next7Days": [
-    {
-      "date": "11월 2일 (월)",
-      "score": "60",
-      "scoreLabel": "보통",
-      "specialDay": "월덕/천덕",
-      "content": "억지로 나를 알리려 하면 오히려 역효과가 나는 시기입니다. 억지로 일을 풀려고 노력하지 말고 차분히 자신을 강화시키는 데 주력하면 문제가 없는 운세입니다."
-    },
     {
       "date": "11월 3일 (화)",
       "score": "80",
@@ -66,6 +59,13 @@
       "scoreLabel": "좋지않음",
       "specialDay": "",
       "content": "자신의 의도에 반하여 약속한 부분을 어기는 일이 자주 발생합니다. 항상 계획에 차질이 있음을 미리 대비하시기 바랍니다. 특히 금전과 관련된 약속을 하신다면 지키기 어려움으로 기간을 멀리 두시기 바랍니다. 운용도 그리 좋지 않습니다."
+    },
+    {
+      "date": "11월 9일 (월)",
+      "score": "60",
+      "scoreLabel": "보통",
+      "specialDay": "역마",
+      "content": "위험을 미리 알고 대피하는 형국입니다. 나쁜 것은 모면하겠으나 그래도 아니함만 못합니다. 책임은 어느 정도 따를 것으로 보입니다."
     }
   ]
 }
