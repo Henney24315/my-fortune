@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "11월 4일 (수)",
-    "percentage": "60%",
-    "color": "분홍색,  밝은 녹색",
-    "colorNote": "",
-    "score": "60",
-    "scoreLabel": "보통",
-    "specialDay": "도화"
-  },
-  "tomorrow": {
     "date": "11월 5일 (목)",
     "percentage": "20%",
     "color": "진회색,  검은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "최악",
     "specialDay": "양인"
   },
+  "tomorrow": {
+    "date": "11월 6일 (금)",
+    "percentage": "70%",
+    "color": "흰색,  남색",
+    "colorNote": "",
+    "score": "70",
+    "scoreLabel": "비교적좋음",
+    "specialDay": "천을"
+  },
   "next7Days": [
-    {
-      "date": "11월 4일 (수)",
-      "score": "60",
-      "scoreLabel": "보통",
-      "specialDay": "도화",
-      "content": "무료한 날입니다. 크게 좋거나 나쁜 기운이 없으니 모두 의지에 달려 있습니다. 평이한 흐름이니 주변의 기운에 오히려 좌우되는 날입니다."
-    },
     {
       "date": "11월 5일 (목)",
       "score": "최악",
@@ -66,6 +59,13 @@
       "scoreLabel": "보통",
       "specialDay": "천을",
       "content": "어려움을 자초해서는 안됩니다. 모험을 하거나 요행을 바라는 일은 되지 않을 것입니다. 얻으려 노력하지 않으면 적어도 손해는 보지 않을 것입니다. 바라면 손해가 될 것이니 명심하시기 바랍니다."
+    },
+    {
+      "date": "11월 11일 (수)",
+      "score": "30",
+      "scoreLabel": "나쁨",
+      "specialDay": "",
+      "content": "쉬어 가는 것이 오히려 큰 지혜가 되는 날입니다. 계획의 실현에 차질이 생길 것이니 미리 대비하시기 바라며 중요한 일에 대한 결정도 다소 미루시는 것이 좋습니다."
     }
   ]
 }
