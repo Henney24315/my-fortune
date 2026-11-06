@@ -1,14 +1,5 @@
 {
   "today": {
-    "date": "11월 6일 (금)",
-    "percentage": "70%",
-    "color": "흰색,  남색",
-    "colorNote": "",
-    "score": "70",
-    "scoreLabel": "비교적좋음",
-    "specialDay": "천을"
-  },
-  "tomorrow": {
     "date": "11월 7일 (토)",
     "percentage": "70%",
     "color": "보라색,  검은색",
@@ -17,14 +8,16 @@
     "scoreLabel": "비교적좋음",
     "specialDay": ""
   },
+  "tomorrow": {
+    "date": "11월 8일 (일)",
+    "percentage": "40%",
+    "color": "흰색",
+    "colorNote": "",
+    "score": "40",
+    "scoreLabel": "좋지않음",
+    "specialDay": ""
+  },
   "next7Days": [
-    {
-      "date": "11월 6일 (금)",
-      "score": "70",
-      "scoreLabel": "비교적좋음",
-      "specialDay": "천을",
-      "content": "문제가 없는 날이 아니라 만회가 되는 날입니다. 어려움이 생기고 이를 극복하는 날이니 최상의 흐름은 아니지만 문제를 해결할 만한 기운은 충분한 날입니다."
-    },
     {
       "date": "11월 7일 (토)",
       "score": "70",
@@ -66,6 +59,13 @@
       "scoreLabel": "좋음",
       "specialDay": "월덕/천덕",
       "content": "약속이 이행되고 자신에게 득이 되어 돌아오는 시기입니다. 좋은 날에 해당하며 자신의 위치가 주변을 통해 더욱 굳건 해지는 시기이니 활용에 만전을 기하시기 바랍니다. 재물의 운용도 좋습니다."
+    },
+    {
+      "date": "11월 13일 (금)",
+      "score": "80",
+      "scoreLabel": "좋음",
+      "specialDay": "",
+      "content": "의외의 결과로 인하여 뜻하지 않은 곳에서 도움을 받을 수 있습니다. 원수도 도움이 되는 경우가 있는데 이 시기가 바로 그러한 운세입니다. 매사의 진행이 비교적 수월하니 활용을 많이 하시기 바랍니다."
     }
   ]
 }
